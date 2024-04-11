@@ -1,7 +1,8 @@
 import os
 import base64
 import json
-from gmail import app
+from gmail_api import app
+from email_classifier import classfi
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
@@ -86,3 +87,4 @@ def main():
 if __name__ == '__main__':
     main()
     app.run()
+    # classfi()
