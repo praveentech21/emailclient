@@ -1,0 +1,32 @@
+{
+  "examples": [
+    {
+      "message": "Dear Jayanth,\n\nI'm writing to request a password reset for my account. I'm having trouble logging in, and have tried both on my laptop and mobile device with no luck. Would you be able to provide me with new credentials or update the email address associated with my account to k78737@gmail.com.\n\nI look forward to hearing from you soon.\n\nRegards,\nRakesh Patra",
+      "label": "Login Issues"              
+    },
+    {
+      "message": "Hi there, I'm experiencing issues logging into my account. Can you please reset my password? Thanks.",    
+      "label": "login issues"
+    },
+    {
+      "message": "Hello support team, I've been trying to log in to my account but I keep getting an error message. Can you assist me with troubleshooting?",
+      "label": "login issues"
+    },
+    {
+      "message": "Hi, I'm having difficulty accessing my account. Could you help me regain access or update my login credentials?",
+      "label": "login issues"
+    },
+    {
+      "message": "Hi support, I forgot my password and can't seem to log in. Can you provide assistance with resetting it?",
+      "label": "login issues"
+    },
+    {
+      "message": "I forgot my password. Can you please reset it for me?",
+      "label": "Login Issues"
+    },
+    {
+      "message": "I'm unable to log in despite entering the correct credentials.",
+      "label": "Login Issues"
+    }
+  ]
+}

@@ -1,48 +1,10 @@
 import base64
-import os
 import json
-from google_auth_oauthlib.flow import Flow
+
+from mailauthcate import mailauthenticate
 from email.message import EmailMessage
-from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
-from flask import Flask, redirect, request, Response
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-
-SCOPES = ['https://www.googleapis.com/auth/gmail.send']
-
-def authenticate():
-    creds = None
-    
-    if os.path.exists('mailtoken.json'):
-        creds = Credentials.from_authorized_user_file('mailtoken.json', SCOPES)
-        
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
-            flow = Flow.from_client_secrets_file(
-            'credentials.json',  # Path to your client secret JSON file
-            scopes=SCOPES,
-            redirect_uri='http://localhost:5000/callback')
-            authorization_url, _ = flow.authorization_url(prompt='consent')
-            creds = callback()
-        
-def callback():
-    code = request.args.get('code')
-    flow = Flow.from_client_secrets_file(
-        'credentials.json',
-        scopes=SCOPES,
-        redirect_uri='http://localhost:5000/callback'
-    )
-    flow.fetch_token(code=code)
-    creds = flow.credentials
-
-    with open('token.json', 'w') as token:        
-        token.write(creds.to_json())
-
-    return creds
 
 def get_responses():
     with open('responce_mails.json') as f:
@@ -55,9 +17,7 @@ def get_responce(classfi):
     return response_content
 
 def send_email(to_address, subject, classfi):
-    if(os.path.exists('mailtoken.json')):
-        os.remove('mailtoken.json')
-    creds = authenticate()
+    creds = mailauthenticate()
     response_content = get_responce(classfi)
     
     try:
@@ -83,7 +43,3 @@ def send_email(to_address, subject, classfi):
     except HttpError as error:
         print(f"An error occurred: {error}")
         
-
-
-if __name__ == "__main__":
-    send_email("to_address", "subject", "response_content")

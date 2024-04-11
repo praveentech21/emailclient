@@ -1,80 +1,62 @@
-import requests
-from cohere.client import Client
+import json
+import cohere
 from cohere.responses.classify import Example
-from authenticate import *
-
+import requests
 import subprocess
 import time
 
-# Initialize Cohere client with your API key
-cohere_client = Client('Upq0AQhc4vjeITGkTHAyEQdCavoTfyKXZkOeDrwH')  # Replace <<apiKey>> with your actual API key
-
-# Fetch emails using the fetch_emails API from gmail_api.py
-def fetch_emails():
-    response = requests.get('http://127.0.0.1:5000/fetch_emails')  # Update the URL as per your API
-    if response.status_code == 200:  
-        emails = response.json()
-        return emails
-    else: 
-        print("Failed to fetch emails. Status code:", response.status_code)
-        return []  
-
-# Classify emails using Cohere client
-def classify_emails(emails):
+# Function to classify emails
+def classify_emails(emails, examples):
+    # Initialize Cohere client with your API key
+    co = cohere.Client('Qdkqns4Mm8O9XvHZV0oO5RSoMomki7sQsYbX7Yqd')
     classified_emails = []
-    examples = [
-        {"input": "How do I find my insurance policy?", "label": "Policy Inquiry"},
-        {"input": "How do I download a copy of my insurance policy?", "label": "Policy Download"},
-    ]
-    examples=[
-            Example("How do I find my insurance policy?", "Finding policy details"),
-            Example("How do I download a copy of my insurance policy?", "Finding policy details"),
-            Example("How do I file an insurance claim?", "Filing a claim and viewing status"),
-            Example("How do I file a reimbursement claim?", "Filing a claim and viewing status"),
-            ]
-    for email in emails:
-        input_text = email['body'].strip()  # Strip any leading/trailing whitespace
-        if input_text:  # Check if input text is not empty
-            try:
-                # Pass examples with at least two classes
-                print("input text = ",input_text)
-                print("beginning classification...")
-                classification_response = cohere_client.classify(inputs=[input_text], examples=examples)
-                
-                print("fetiching classsifcation response")
-                category = classification_response['outputs'][0]['label']
-                print("category = ",category)
 
-                email['category'] = category
-                print("email category is set to ",email['category'])
+    # Classify each email
+    for email_data in emails:
+        email_body = email_data.get('body', '')  # Extract email body
+        if email_body:
+            # Classify the email
+            classification_response = co.classify(
+                inputs=[email_body],  # Wrap email_body in a list
+                examples=examples,
+            )
 
-                classified_emails.append(email)
+            # Add classification result to email data
+            email_data['classification_result'] = classification_response
+            classified_emails.append(email_data)
 
-                print("email appended")
-            except Exception as e:
-                print("Error classifying email:", str(e))
-        else:
-            print("Empty email body detected, skipping classification.")
     return classified_emails
 
-# Main function to fetch and classify emails
-def classifi():
-    # Start the Flask server in a subprocess
-    server_process = subprocess.Popen(["python3", "gmail_api.py"])
-    # Wait for a few seconds to allow the server to start
-    time.sleep(5)
-    
-    emails = fetch_emails()
-    if emails:
-        classified_emails = classify_emails(emails)
-        # Print or display the classified emails in the console
-        for email in classified_emails:
-            print("Email:", email['body'])
-            print("Category:", email.get('category', 'Unclassified'))
-            print("--------------------------------------")
-    else:
-        print("No emails fetched.")
-    
-    # Terminate the Flask server subprocess
-    server_process.terminate()
+# Load examples from category.json
+with open('category.json', 'r') as file:
+    examples_data = json.load(file)
 
+# Extract examples and labels
+examples = [Example(example['message'], example['label']) for example in examples_data['examples']]
+
+# Start gmail_api.py script in a separate process
+gmail_api_process = subprocess.Popen(["python3", "gmail_api.py"])
+
+# Wait for a moment to ensure gmail_api.py has started
+time.sleep(10)  # Adjust the delay as needed
+
+# Retry fetching emails for a few times
+retry_count = 5
+for _ in range(retry_count):
+    # Fetch emails from gmail_api.py
+    response = requests.get('http://127.0.0.1:5000/fetch_emails')  # Replace with your actual endpoint URL
+
+    if response.status_code == 200:
+        emails = response.json()
+
+        # Classify emails
+        classified_emails = classify_emails(emails, examples)
+
+        # Print the classified emails
+        print(classified_emails)
+        break
+    else:
+        print("Failed to fetch emails. Retrying...")
+        time.sleep(5)  # Adjust the delay between retries as needed
+else:
+    print("Failed to fetch emails after multiple retries.")
