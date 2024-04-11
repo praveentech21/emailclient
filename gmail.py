@@ -2,7 +2,7 @@ import base64
 import json
 from authenticate import *
 from send_resopnce import send_email
-from email_classifier import classifi
+# from email_classifier import classifi
 from flask import Flask, redirect, request, Response
 from googleapiclient.discovery import build
 
@@ -12,7 +12,11 @@ SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
 @app.route('/')
 def index():
-    creds = Credentials.from_authorized_user_file('token.json', SCOPES)
+    creds = None         
+
+    if os.path.exists('token.json'):
+        creds = Credentials.from_authorized_user_file('token.json', SCOPES)
+
     if creds and creds.valid:
         return redirect('/emails')
     else:
