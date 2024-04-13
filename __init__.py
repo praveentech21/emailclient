@@ -1,9 +1,12 @@
 import base64
+import json
 from authenticate import *
 from send_resopnce import send_email
 from email_classifier import classify_emails
 from flask import Flask, redirect, request, Response
 from googleapiclient.discovery import build
+from apscheduler.schedulers.background import BackgroundScheduler
+
 
 app = Flask(__name__)
 
@@ -45,28 +48,44 @@ def fetch_emails():
     service = build('gmail', 'v1', credentials=creds)
 
     sample = fetch_and_update_emails()
+        # Check if the sample is in send_mails.json
+    with open('send_mails.json', 'r+') as file:
+        data = json.load(file)
+        sent_emails = [mail["id"] for mail in data["mails"]]
+        if sample['id'] in sent_emails:
+            print("Email was already sent.")
+            return
+        else:
+            if sample:
+                message = get_email(service, sample)
+                if message:
+                    sender = next((header['value'] for header in message['payload']['headers'] if header['name'] == 'From'), '')
+                    subject = next((header['value'] for header in message['payload']['headers'] if header['name'] == 'Subject'), '')
+                    body = ''
 
-    if sample:
-        message = get_email(service, sample)
-        if message:
-            sender = next((header['value'] for header in message['payload']['headers'] if header['name'] == 'From'), '')
-            subject = next((header['value'] for header in message['payload']['headers'] if header['name'] == 'Subject'), '')
-            body = ''
+                    if 'parts' in message['payload']:
+                        for part in message['payload']['parts']:
+                            if part['mimeType'] == 'text/plain':
+                                body = base64.urlsafe_b64decode(part['body']['data']).decode('utf-8')
+                                break
 
-            if 'parts' in message['payload']:
-                for part in message['payload']['parts']:
-                    if part['mimeType'] == 'text/plain':
-                        body = base64.urlsafe_b64decode(part['body']['data']).decode('utf-8')
-                        break
+                    prediction = classify_emails(body, subject, sender)  
+                    print(prediction)
+                    email_sent = send_email(sender, subject, prediction)  
+                    if email_sent:
+                        # Append the sample message ID to send_mails.json
+                        data["mails"].append(sample)
+                        file.seek(0)
+                        json.dump(data, file, indent=4)
+                        file.truncate()
+                        print("Email sent and ID appended to send_mails.json.")
+                    return email_sent
+            else:
+                return "No new emails found."
 
-            predition = classify_emails(body, subject, sender)  
-            print(predition)
-            email_send = send_email(sender, subject, predition)  
-                            
-        return email_send
-    else:
-        return "No new emails found."
-
+scheduler = BackgroundScheduler()
+scheduler.add_job(fetch_emails, 'interval', seconds=20)
+scheduler.start()
 
 if __name__ == '__main__':
     app.run(port=5000)
