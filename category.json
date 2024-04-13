@@ -1,11 +1,7 @@
 {
   "examples": [
     {
-      "message": "Dear Jayanth,\n\nI'm writing to request a password reset for my account. I'm having trouble logging in, and have tried both on my laptop and mobile device with no luck. Would you be able to provide me with new credentials or update the email address associated with my account to k78737@gmail.com.\n\nI look forward to hearing from you soon.\n\nRegards,\nRakesh Patra",
-      "label": "Login Issues"              
-    },
-    {
-      "message": "Hi there, I'm experiencing issues logging into my account. Can you please reset my password? Thanks.",    
+      "message": "Hi [Name], I'm experiencing issues logging into my account. Can you please reset my password? Thanks.",
       "label": "login issues"
     },
     {
@@ -22,11 +18,31 @@
     },
     {
       "message": "I forgot my password. Can you please reset it for me?",
-      "label": "Login Issues"
+      "label": "login issues"
     },
     {
       "message": "I'm unable to log in despite entering the correct credentials.",
-      "label": "Login Issues"
+      "label": "login issues"
+    },
+    {
+      "message": "Hi [Name], I hope you're doing well. I seem to be having trouble with the access link you provided for my course. The link directs me to a password reset page, but unfortunately, it's not working for me. Could you please provide me with the correct access link to the course? I appreciate your assistance.",
+      "label": "site issue"
+    },
+    {
+      "message": "Hi [Name], I trust this message finds you in good spirits. I've encountered an issue with the access link you sent over for my course. When I click on it, it leads me to a password reset page, which doesn't seem to be functioning properly. Would it be possible for you to furnish me with the accurate access link to the course? Thank you for your help.",
+      "label": "site issue"
+    },
+    {
+      "message": "Hello [Name], I hope you're having a great day. I'm encountering a bit of trouble with the access link you provided for my course. It appears to be directing me to a password reset page, but unfortunately, the link seems to be broken. Could you please share with me the correct access link to the course? Your assistance would be greatly appreciated.",
+      "label": "site issue"
+    },
+    {
+      "message": "Hi [Name], I trust you're well. I'm reaching out regarding the access link you shared for my course. It seems that the link redirects me to a password reset page, and regrettably, the page isn't functioning as expected. Would you mind providing me with the direct access link to the course? Thank you kindly for your help.",
+      "label": "site issue"
+    },
+    {
+      "message": "Hi [Name], I hope this message finds you in good health. I'm encountering an issue with the access link you forwarded for my course. Upon clicking the link, I'm directed to a password reset page, but unfortunately, it doesn't seem to be operational. Could you please supply me with the correct access link to the course? I appreciate your prompt assistance.",
+      "label": "site issue"
     }
   ]
 }
