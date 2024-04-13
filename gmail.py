@@ -2,11 +2,12 @@ import base64
 import json
 from authenticate import *
 from send_resopnce import send_email
-# from email_classifier import classifi
+from email_classifier import classify_emails
 from flask import Flask, redirect, request, Response
 from googleapiclient.discovery import build
 
 app = Flask(__name__)
+all_emails = []
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
@@ -46,7 +47,6 @@ def fetch_emails():
     service = build('gmail', 'v1', credentials=creds)
 
     message_ids = get_unseen_emails(service)
-    all_emails = []
 
     if message_ids:
         def generate_emails():
@@ -85,13 +85,8 @@ def fetch_emails():
     
 @app.route('/classification')
 def classification():
-    # classifi()
-    return "Classified Successfully!"
-
-@app.route('/send_response')
-def send_response():
-    send_email("ravikumar_csd@srkrec.edu.in", "Test Subject", "class1")
-    return "Response sent successfully!"
+    classify_emails(all_emails)
+    return classify_emails(all_emails)
 
 if __name__ == '__main__':
     app.run(port=5000)

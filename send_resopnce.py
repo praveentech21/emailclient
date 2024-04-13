@@ -40,6 +40,7 @@ def send_email(to_address, subject, classfi):
             .execute()
         )
         print(f'Message Id: {send_message["id"]}')
+        return send_message["id"]
     except HttpError as error:
         print(f"An error occurred: {error}")
         
