@@ -44,10 +44,10 @@ def fetch_emails():
     creds = Credentials.from_authorized_user_file('token.json', SCOPES)
     service = build('gmail', 'v1', credentials=creds)
 
-    message_id = {'id': '18daf37abaec44fb', 'threadId': '18daf37abaec44fb'}
+    sample = fetch_and_update_emails()
 
-    if message_id:
-        message = get_email(service, message_id)
+    if sample:
+        message = get_email(service, sample)
         if message:
             sender = next((header['value'] for header in message['payload']['headers'] if header['name'] == 'From'), '')
             subject = next((header['value'] for header in message['payload']['headers'] if header['name'] == 'Subject'), '')
