@@ -84,7 +84,7 @@ def fetch_emails():
                 return "No new emails found."
 
 scheduler = BackgroundScheduler()
-scheduler.add_job(fetch_emails, 'interval', seconds=20)
+scheduler.add_job(fetch_emails, 'interval', seconds=5)
 scheduler.start()
 
 if __name__ == '__main__':
