@@ -66,11 +66,7 @@ def fetch_emails():
         return email_send
     else:
         return "No new emails found."
-    
-# @app.route('/classification')
-# def classification():
-#     classify_emails(all_emails)
-#     return classify_emails(all_emails)
+
 
 if __name__ == '__main__':
     app.run(port=5000)
