@@ -22,5 +22,3 @@ def classify_emails(email_body,email_subject,email_sender):
 
     return predition
     
-if __name__ == '__main__':
-    classify_emails("Hello, I am writing to inform you that the meeting has been rescheduled to 2:00 PM tomorrow.", "Meeting rescheduled", "ravikumar_csd@srkrec.edu.in")
