@@ -19,7 +19,6 @@ def classify_emails(email_body,email_subject,email_sender):
 
         classification = classification_response[0]
         predition = classification.prediction
-        print(predition)
 
     return predition
     

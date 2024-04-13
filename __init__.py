@@ -48,7 +48,6 @@ def fetch_emails():
 
     if message_id:
         message = get_email(service, message_id)
-        print(message)
         if message:
             sender = next((header['value'] for header in message['payload']['headers'] if header['name'] == 'From'), '')
             subject = next((header['value'] for header in message['payload']['headers'] if header['name'] == 'Subject'), '')
@@ -62,9 +61,9 @@ def fetch_emails():
 
             predition = classify_emails(body, subject, sender)  
             print(predition)
-            send_email(sender, subject, predition)  
+            email_send = send_email(sender, subject, predition)  
                             
-        return "New email received and processed."
+        return email_send
     else:
         return "No new emails found."
     
