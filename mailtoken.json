@@ -1,11 +1,1 @@
-{
-  "token": "ya29.a0Ad52N3_mKiD1B-RR8ZYO0WCmy9f4mCeMMWDx8dH6AToNxsho0YM-5gZnZSzgMePzr2a85Ui83YmirZY0yP20lqmlzBYxoeH8M4GpaOcdaHPIRviYM5PnhMRYQ7amCLvH6FM_V-q9mRJHzzIyDx2ZTZl23ZsEpOQD1OwyaCgYKAakSARMSFQHGX2MiskueXJ46yP95uB4XhQBrSg0171",
-  "refresh_token": "1//0gQmOnQwq0tRXCgYIARAAGBASNwF-L9IrzjwZbOFjA_0JmbXDg1FJoBWLCN-61BXnq-nBhY5-JDNgF4i9kCEviT_vIHnD8QZrheU",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "client_id": "81803335924-v7cg1ceic2o2idqjnoh20c55jrdi6g8t.apps.googleusercontent.com",
-  "client_secret": "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",
-  "scopes": ["https://www.googleapis.com/auth/gmail.send"],
-  "universe_domain": "googleapis.com",
-  "account": "",
-  "expiry": "2024-04-13T19:59:26.615704Z"
-}
+{"token": "ya29.a0Ad52N39lJvVUGGbh6WbuLajuluWGE_l-ANK3N3fMoOVTUjLhAAZQhxCkfK6PoPAE_kBZ0pQTaRe2kM1JVETwpQBzyQkaS2g9vz1QXwq5z02Ms7u6EjJrU4BBmoChSlp4739Ryd5ZRFDELHPCr1dlYETZhOkLLcHoXXjkaCgYKAUYSARMSFQHGX2MiAIz35sDS2jZ4pC_8cZsCVQ0171", "refresh_token": "1//0g7iN6CFw_6gFCgYIARAAGBASNwF-L9Ir0n5t-W9ezMz9AIhoNGBNnzj7incrH7YjxbkSTcbsVMA57qeHu43U53s60V2maHwYgvY", "token_uri": "https://oauth2.googleapis.com/token", "client_id": "81803335924-v7cg1ceic2o2idqjnoh20c55jrdi6g8t.apps.googleusercontent.com", "client_secret": "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", "scopes": ["https://www.googleapis.com/auth/gmail.send"], "universe_domain": "googleapis.com", "account": "", "expiry": "2024-04-14T16:42:16.018161Z"}
