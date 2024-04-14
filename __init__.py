@@ -1,6 +1,7 @@
 import base64
 import json
 from authenticate import *
+from feedback import feedbackcode
 from send_resopnce import send_email
 from email_classifier import classify_emails
 from flask import Flask, redirect, request, Response
@@ -70,8 +71,8 @@ def fetch_emails():
                                 break
 
                     prediction = classify_emails(body, subject, sender)  
-                    print(prediction)
-                    email_sent = send_email(sender, subject, prediction)  
+                    feedbackcontent = feedbackcode(subject,body,sender)
+                    email_sent = send_email(sender, subject, prediction, feedbackcontent)  
                     if email_sent:
                         # Append the sample message ID to send_mails.json
                         data["mails"].append(sample)

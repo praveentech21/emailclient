@@ -16,7 +16,7 @@ def get_responce(classfi):
     response_content = responses.get(classfi, {}).get('responce', 'Default response')
     return response_content
 
-def send_email(to_address, subject, classfi):
+def send_email(to_address, subject, classfi, feedback_content):
     creds = mailauthenticate()
     response_content = get_responce(classfi)
     
@@ -25,6 +25,7 @@ def send_email(to_address, subject, classfi):
         message = EmailMessage()
 
         message.set_content(response_content)
+        message.add_alternative(feedback_content, subtype="html")
         message["To"] = to_address
         message["From"] = "testpixeltest8@gmail.com"
         message["Subject"] = subject
