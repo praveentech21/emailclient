@@ -53,8 +53,8 @@ def fetch_emails():
         data = json.load(file)
         sent_emails = [mail["id"] for mail in data["mails"]]
         if sample['id'] in sent_emails:
-            print("Email was already sent.")
-            return
+            print("No new Mails Recived.")
+            return "No new Mails Recived."
         else:
             if sample:
                 message = get_email(service, sample)
