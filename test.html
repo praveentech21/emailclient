@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Details</title>
+</head>
+<body>
+    <h1>Email Details</h1>
+    <p>Email Body: <span id="emailBody"></span></p>
+    <p>Sender Email: <span id="senderEmail"></span></p>
+    <p>Subject: <span id="subject"></span></p>
+
+    <script>
+        // Extract query parameters from the URL
+        const urlParams = new URLSearchParams('http://localhost:5000/?body=%0A%20%20%20%20Dear%20Jayanth%2C%20I%20am%20Ramesh%2C%0A%0AI%27ve%20enrolled%20for%20Pixeltests%20however%20I%20couldn%27t%20take%20up%20the%20online%20LMS%0Aclasses%20due%20to%20certain%20situations.%0AWould%20like%20to%20resume%20from%20FEB24%20onwards.%0APlease%20help%20me%20how%20I%20can%20take%20it%20forward.%0A%0AThanks%0A%0ARamesh%20KJ%0A%2B91%209886041305%0A%0A&sender=ravikumar_csd%40srkrec.edu.in&subject=Pixeltests%20-%20LMS%20classes');
+        const stringing = JSON.stringify(urlParams.get('body'));
+        const senderEmail = urlParams.get('sender');
+        const subject = urlParams.get('subject');
+
+        const emailBody = decodeURIComponent(stringing);
+        const sender = decodeURIComponent(senderEmail);
+        const subj = decodeURIComponent(subject);
+
+        const encodedString = "%0A%20%20%20%20Dear%20Jayanth%2C%20I%20am%20Ramesh%2C%0A%0AI%27ve%20enrolled%20for%20Pixeltests%20however%20I%20couldn%27t%20take%20up%20the%20online%20LMS%0Aclasses%20due%20to%20certain%20situations.%0AWould%20like%20to%20resume%20from%20FEB24%20onwards.%0APlease%20help%20me%20how%20I%20can%20take%20it%20forward.%0A%0AThanks%0A%0ARamesh%20KJ%0A%2B91%209886041305%0A%0A"
+        console.log(typeof(encodedString), typeof(stringing));
+        const decodedString = decodeURIComponent(encodedString);
+        const shbdcs = decodeURIComponent(stringing);
+        console.log(decodedString);
+        console.log(stringing);
+
+        // Display email details on the HTML page
+        document.getElementById('emailBody').textContent = emailBody;
+        document.getElementById('senderEmail').textContent = sender;
+        document.getElementById('subject').textContent = subj;
+    </script>
+</body>
+</html>

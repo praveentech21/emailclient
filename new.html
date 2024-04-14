@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Email Details</title>
+    </head>
+    <body>
+        <h1>Email Details</h1>
+        <p>Email Body: <span id="emailBody"></span></p>
+        <p>Sender Email: <span id="senderEmail"></span></p>
+        <p>Subject: <span id="subject"></span></p>
+
+        <script>
+        // Extract query parameters from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        
+const emailBodyEncoded = urlParams.get('body');
+const senderEmail = urlParams.get('sender');
+const subject = urlParams.get('subject');
+
+const emailBody = decodeURIComponent(emailBodyEncoded);
+const sender = decodeURIComponent(senderEmail);
+const subj = decodeURIComponent(subject);
+
+
+// Display email details on the HTML page
+document.getElementById('emailBody').textContent = emailBody;
+document.getElementById('senderEmail').textContent = sender;
+document.getElementById('subject').textContent = subj;
+    </script>
+    </body>
+</html>
