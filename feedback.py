@@ -26,12 +26,13 @@ def feedbackcode(subject,body,sender):
     </head>
     <body>
     <h2>Please give us your feedback</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/GGTorJjJq-c?si=OYCnkingQGboKOq1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p>is your problem solved : </p>  <a href="{solvedurl}">👍</a><br>
+    <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GGTorJjJq-c?si=OYCnkingQGboKOq1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <p>is your problem solved : </p>  <a href="{solvedurl}">👍</a><br>  
     <p>DO you still have problem : </p>  <a href="{unsolvedurl}">👍</a><br>
     <p>Thank you</p>
     </body>
     </html>
     """
-    return code
     
+    return code
