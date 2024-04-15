@@ -19,7 +19,7 @@ def authenticate():
         flow = Flow.from_client_secrets_file(
             'credentials.json',  # Path to your client secret JSON file
             scopes=SCOPES,
-            redirect_uri='http://localhost:5000/callback'
+            redirect_uri='http://saipraveen21.tech/callback'
         )
         authorization_url, _ = flow.authorization_url(prompt='consent')
         return authorization_url, flow

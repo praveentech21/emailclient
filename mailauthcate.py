@@ -29,14 +29,14 @@ def authenticate():
         flow = Flow.from_client_secrets_file(
             'credentials.json',  # Path to your client secret JSON file
             scopes=SCOPES,
-            redirect_uri='http://localhost:8000/callback'
+            redirect_uri='http://saipraveen21.tech:1030/callback'
         )
         auth_url, _ = flow.authorization_url(prompt='consent')
 
         # Open the auth URL in the default web browser automatically
         webbrowser.open(auth_url)
 
-        server = Thread(target=mailapp.run, kwargs={'port': 8000})
+        server = Thread(target=mailapp.run, kwargs={'port': 1030})
         server.start()
 
     return creds
@@ -44,7 +44,7 @@ def authenticate():
 @mailapp.route('/callback')
 def google_auth_callback():
     auth_code = request.args.get('code')
-    flow = Flow.from_client_secrets_file('credentials.json', scopes=SCOPES, redirect_uri='http://localhost:8000/callback')
+    flow = Flow.from_client_secrets_file('credentials.json', scopes=SCOPES, redirect_uri='http://saipraveen21.tech:1030/callback')
     flow.fetch_token(code=auth_code)
     creds = flow.credentials
     with open('mailtoken.json', 'w') as token:

@@ -32,7 +32,7 @@ def callback():
     flow = Flow.from_client_secrets_file(
         'credentials.json',
         scopes=SCOPES,
-        redirect_uri='http://localhost:5000/callback'
+        redirect_uri='http://saipraveen21.tech/callback'
     )
     flow.fetch_token(code=code)
     creds = flow.credentials
