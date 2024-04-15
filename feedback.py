@@ -29,8 +29,8 @@ def feedbackcode(subject,body,sender,response):
     <h2>Please give us your feedback</h2>
     <div>
     <a href="https://youtu.be/GGTorJjJq-c?si=TcgY6PUJKVp8NOHu"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDpH7joGT-VlFWy48EDcIbPd38kBCmbFxGuVA1U96QSvyfLbunlxpxJEqR04edoA4G0Xw&usqp=CAU" ></a></div>
-    <p>is your problem solved : </p>  <a href="{solvedurl}">👍</a><br>  
-    <p>DO you still have problem : </p>  <a href="{unsolvedurl}">👍</a><br>
+    <p>is your problem solved : <a href="{solvedurl}">👍</a></p><br>  
+    <p>DO you still have problem : <a href="{unsolvedurl}">😒</a></p><br>
     <p>Thank you</p>
     </body>
     </html>
