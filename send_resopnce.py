@@ -1,6 +1,6 @@
 import base64
 import json
-
+from feedback import feedbackcode
 from mailauthcate import mailauthenticate
 from email.message import EmailMessage
 from googleapiclient.discovery import build
@@ -16,16 +16,16 @@ def get_responce(classfi):
     response_content = responses.get(classfi, {}).get('responce', 'Default response')
     return response_content
 
-def send_email(to_address, subject, classfi, feedback_content):
+def send_email(to_address, subject, classfi, body):
     creds = mailauthenticate()
     response_content = get_responce(classfi)
+    feedback_content = feedbackcode(subject, body, to_address, response_content)
     
     try:
         service = build("gmail", "v1", credentials=creds)
         message = EmailMessage()
 
-        message.set_content(response_content)
-        message.add_alternative(feedback_content, subtype="html")
+        message.set_content(feedback_content, subtype="html")
         message["To"] = to_address
         message["From"] = "testpixeltest8@gmail.com"
         message["Subject"] = subject
