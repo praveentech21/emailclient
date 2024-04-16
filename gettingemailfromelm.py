@@ -1,7 +1,7 @@
 import email
 
 # Path to the downloaded ".eml" file
-eml_file_path = "sample.eml"
+eml_file_path = "emailbody.eml"
 output_text_file = "sample.txt"
 
 def read_eml_file(eml_file_path):
