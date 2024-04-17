@@ -1,4 +1,5 @@
 import urllib.parse
+from message import code
 
 def feedbacksolvedurl(subject,body,sender):
     encoded_body = urllib.parse.quote(body)
@@ -19,21 +20,6 @@ def feedbackunsolvedurl(subject,body,sender):
 def feedbackcode(subject,body,sender,response):
     solvedurl = feedbacksolvedurl(subject,body,sender)
     unsolvedurl = feedbackunsolvedurl(subject,body,sender)
-    code = f"""
-    <html>
-    <head>
-    <title>Feedback</title>
-    </head>
-    <body>
-    <div>Responce : <br>{response}</div>
-    <h2>Please give us your feedback</h2>
-    <div>
-    <a href="https://youtu.be/GGTorJjJq-c?si=TcgY6PUJKVp8NOHu"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDpH7joGT-VlFWy48EDcIbPd38kBCmbFxGuVA1U96QSvyfLbunlxpxJEqR04edoA4G0Xw&usqp=CAU" ></a></div>
-    <p>is your problem solved : <a href="{solvedurl}">👍</a></p><br>  
-    <p>DO you still have problem : <a href="{unsolvedurl}">😒</a></p><br>
-    <p>Thank you</p>
-    </body>
-    </html>
-    """
+    formated_response = code.format(responce_message = response,solved_link = solvedurl,unsolved_link = unsolvedurl)
     
-    return code
+    return formated_response

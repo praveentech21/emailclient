@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+code = """
+    <!DOCTYPE html>
 <html
   xmlns="http://www.w3.org/1999/xhtml"
   xmlns:v="urn:schemas-microsoft-com:vml"
@@ -922,83 +923,7 @@
                                             mso-para-margin-left: 40px;
                                           "
                                           >
-                                          <li
-                                            style="
-                                              list-style: disc;
-                                              margin: 0;
-                                              margin-top: 1em;
-                                            "
-                                          >
-                                            <strong
-                                              >Increase Brand Awareness:</strong
-                                            >
-                                            Sharing videos from your app to
-                                            Reels can boost brand awareness and
-                                            organic traffic. Find out how a
-                                            <a
-                                              href="https://content.atmeta.com/n/MjY3LVBWQi05NDEAAAGPMB9ddib-n09b8OaAHFJrUfxVAZVFoV2kSaXhxB0V58ESnPiaH464TtDzmEWQKu3avfjLm2c="
-                                              target="_blank"
-                                              rel="noopener"
-                                              style="
-                                                color: rgb(0, 104, 165);
-                                                text-decoration: underline;
-                                              "
-                                              >150% increase in shared content
-                                              helped Smule (one of the most
-                                              popular social music apps) earn
-                                              more organic traffic after
-                                              integrating with Sharing to
-                                              Reels.</a
-                                            >
-                                          </li>
-                                          <li
-                                            style="list-style: disc; margin: 0"
-                                          >
-                                            <strong
-                                              >Self-serve
-                                              implementation:</strong
-                                            >
-                                            With self-serve documentation (<a
-                                              href="https://content.atmeta.com/n/MjY3LVBWQi05NDEAAAGPMB9ddjVuAzvRbECad675nKuySvUE--aqxBEOIwoqgwRUDPjHkF8hGRXJEQq6XV5pM_cho0E="
-                                              target="_blank"
-                                              rel="noopener"
-                                              style="
-                                                color: rgb(0, 104, 165);
-                                                text-decoration: underline;
-                                              "
-                                              >iOS</a
-                                            >;
-                                            <a
-                                              href="https://content.atmeta.com/n/MjY3LVBWQi05NDEAAAGPMB9ddtl8ZCAmtql8dXnnsDOYSjxrpLvsiBENB6SgL_qxKn419TK3q49wyQ_n5Xc8endd2ew="
-                                              target="_blank"
-                                              rel="noopener"
-                                              style="
-                                                color: rgb(0, 104, 165);
-                                                text-decoration: underline;
-                                              "
-                                              >Android</a
-                                            >), you can implement Sharing to
-                                            Reels on Instagram within weeks, or
-                                            even days for simpler integration
-                                            setups.
-                                          </li>
-                                          <li
-                                            style="
-                                              list-style: disc;
-                                              margin: 0;
-                                              margin-bottom: 1em;
-                                            "
-                                          >
-                                            <strong
-                                              >Provide Value to Your
-                                              Users:</strong
-                                            >
-                                            Your users can now share content
-                                            directly to Instagram Reels with a
-                                            convenient sharing, saving them time
-                                            and making sharing more accessible
-                                            than ever.
-                                          </li>
+                                          {responce_message}
                                         </ul>
                                         <p style="margin: 0 0">&nbsp;</p>
                                         <p style="margin: 0 0">
@@ -1098,7 +1023,7 @@
                                 >
                                   <div>
                                     <a
-                                      href="Solved Link"
+                                      href="{solved_link}"
                                       style="
                                         display: inline-block;
                                         background: #ffffff;
@@ -1183,7 +1108,7 @@
                                 >
                                   <div>
                                     <a
-                                      href="Unsolved Link"
+                                      href="{unsolved_link}"
                                       style="
                                         display: inline-block;
                                         background: #ffffff;
@@ -1249,3 +1174,5 @@
     
   </body>
 </html>
+
+    """
