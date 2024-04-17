@@ -1,6 +1,122 @@
 {
   "examples": [
     {
+      "message": "Dear team, how do I get my final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "When will I get my final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "How many days will it take to get the final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "I completed the exam. When can I expect my final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hello, I'm inquiring about the process to obtain my final certification after completing the exam.",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hello, I recently purchased the course but I'm not satisfied with it. Can I cancel my purchase and get a refund?",
+      "label": "Cancel course"
+    },
+    {
+      "message": "Hi there, I've enrolled in the course but it doesn't meet my expectations. Can I cancel my purchase and receive a refund?",
+      "label": "Cancel course"
+    },
+    {
+      "message": "Dear Support Team, I've decided to cancel my course purchase due to unforeseen circumstances. Could you please guide me through the refund process?",
+      "label": "Cancel course"
+    },
+    {
+      "message": "Hi, I've realized that the course content is not suitable for my needs. Can I cancel my purchase and get a refund?",
+      "label": "Cancel course"
+    },
+    {
+      "message": "Hello, I'm not satisfied with the course materials. Can I cancel my purchase and receive a refund as per your refund policy?",
+      "label": "Cancel course"
+    },
+    {
+      "message": "Dear Support Team, I would like to cancel my course subscription and request a refund. How can I proceed with this process?",
+      "label": "Cancel course"
+    },
+    {
+      "message": "Hello, I recently changed my email address and would like to update it for my course account. How can I proceed with this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi, I'm planning to switch to a new email address. Can you help me transfer my course subscription to the new email?",
+      "label": "Change address"
+    },
+    {
+      "message": "Dear Support Team, I need to change the email address associated with my course account. Could you please assist me with this process?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi, I'm no longer using my current email address. Can I transfer my course access to someone else's email?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hello, I'm considering transferring my course subscription to a friend. Is it possible to change the email associated with my account to theirs?",
+      "label": "Change address"
+    },
+    {
+      "message": "Dear Team, I would like to update my email address for my course account. Can you guide me through the steps to make this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hello, I'm experiencing difficulties with the course videos. They're not playing properly. Can you help me troubleshoot this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi there, whenever I try to play the course videos, they don't load. Could you please look into this issue and provide a solution?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Dear Support Team, I'm having trouble accessing the course videos. Every time I click on a video, it doesn't start playing. What could be the problem?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi, I'm unable to watch any of the course videos. Whenever I click play, nothing happens. Can you assist me in resolving this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hello, the course videos seem to be buffering indefinitely and not playing. Is there a problem with the video player or my internet connection?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Dear Team, I'm encountering an issue where the course videos are stuck on a loading screen and won't play. Can you please investigate and provide a solution?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hello, I'm interested in enrolling in your course. Can you please confirm if it comes with a certificate of completion?",
+      "label": "Certificate of completion"
+    },
+    {
+      "message": "Hi there, I'm considering purchasing your course. Could you provide information on whether it includes a certificate of completion?",
+      "label": "Certificate of completion"
+    },
+    {
+      "message": "Dear Support Team, before I enroll in the course, I'd like to know if there's a certificate awarded upon completion. Can you clarify this for me?",
+      "label": "Certificate of completion"
+    },
+    {
+      "message": "Hi, I'm interested in your course but need to know if there's a certificate provided after completing it. Can you confirm?",
+      "label": "Certificate of completion"
+    },
+    {
+      "message": "Hello, I'm considering taking your course for professional development. Can you please confirm if there's a certificate issued upon completion?",
+      "label": "Certificate of completion"
+    },
+    {
+      "message": "Dear Team, I'm interested in your course but require confirmation on whether it comes with a certificate of completion. Can you provide this information?",
+      "label": "Certificate of completion"
+    },
+    {
       "message": "Hi [Name], I'm experiencing issues logging into my account. Can you please reset my password? Thanks.",
       "label": "Login issues"
     },
@@ -13,7 +129,7 @@
       "label": "Login issues"
     },
     {
-      "message": "Hi support, I forgot my password and can't seem to log in. Can you provide assistance with resetting it?",
+      "message": "Hi support, I forgot my password and can't seem to login. Can you provide assistance with resetting it?",
       "label": "Login issues"
     },
     {
@@ -21,7 +137,31 @@
       "label": "Login issues"
     },
     {
-      "message": "I'm unable to log in despite entering the correct credentials.",
+      "message": "I'm unable to login despite entering the correct credentials.",
+      "label": "Login issues"
+    },
+    {
+      "message": "Hello, I'm encountering difficulties logging into my account. It seems my password is not working. Can you help me reset it?",
+      "label": "Login issues"
+    },
+    {
+      "message": "Hi support team, I've been locked out of my account after too many failed login attempts. Can you assist me in regaining access?",
+      "label": "Login issues"
+    },
+    {
+      "message": "Hi, I'm having trouble logging into my account from a new device. It's asking for a verification code that I haven't received. Can you help?",
+      "label": "Login issues"
+    },
+    {
+      "message": "Hi there, I've recently changed my email address associated with my account, and now I'm unable to log in. Can you update my login credentials?",
+      "label": "Login issues"
+    },
+    {
+      "message": "Hello support, I'm receiving an 'account locked' message when trying to log in. Can you please unlock my account?",
+      "label": "Login issues"
+    },
+    {
+      "message": "Hi, I'm encountering an issue where the login page keeps refreshing and not allowing me to enter my credentials. Can you investigate?",
       "label": "Login issues"
     },
     {
@@ -73,6 +213,30 @@
       "label": "Requesting course extension"
       },
       {
+        "message": "Hi, I'm facing unexpected personal commitments that are hindering my ability to keep up with the course schedule. Could you please grant me an extension to complete the remaining coursework? Thank you for your consideration.",
+        "label": "Requesting course extension"
+      },
+      {
+        "message": "Hello, I've encountered technical difficulties with the course platform, which have caused delays in my progress. Can I request an extension to ensure I have sufficient time to complete the required tasks?",
+        "label": "Requesting course extension"
+      },
+      {
+        "message": "Hi, I'm currently dealing with a family emergency that has disrupted my study routine. Could I please request an extension to accommodate this unexpected situation?",
+        "label": "Requesting course extension"
+      },
+      {
+        "message": "Hello, I've been experiencing health issues that have affected my ability to focus on the course materials. Can you please provide an extension to help me catch up on the missed content?",
+        "label": "Requesting course extension"
+      },
+      {
+        "message": "Hi, I've encountered unforeseen work-related obligations that have consumed much of my time, making it difficult to keep up with the course schedule. Can I request an extension to complete the coursework?",
+        "label": "Requesting course extension"
+      },
+      {
+        "message": "Hello, I'm dealing with personal challenges that have impeded my progress in the course. Can you please grant me an extension to allow me more time to complete the assignments? Thank you for your understanding.",
+        "label": "Requesting course extension"
+      },
+      {
         "message": "Hi there, I've been trying to access the site for the past hour, but it seems to be down. Are you experiencing any server issues?",
         "label": "Site issue"
       },
@@ -98,6 +262,34 @@
       },
       {
         "message": "your website seems to be staging a rebellion, displaying error messages like protest banners. It's as if the digital realm has declared independence, leaving visitors stranded in a sea of frustration. ",
+        "label": "Site issue"
+      },
+      {
+        "message": "Hello, I'm experiencing issues accessing certain features on the website. Buttons and links seem unresponsive. Could you please investigate this issue?",
+        "label": "Site issue"
+      },
+      {
+        "message": "Hi, I'm encountering problems with the website's navigation. Pages are not loading correctly, and I'm unable to move between sections. Can you look into this matter?",
+        "label": "Site issue"
+      },
+      {
+        "message": "Hello, I've noticed that images on the website are not displaying properly. It appears broken or missing. Could you please fix this issue?",
+        "label": "Site issue"
+      },
+      {
+        "message": "Hi there, I'm having trouble accessing the website from my mobile device. Pages are not rendering correctly, and the layout seems distorted. Can you assist me with this problem?",
+        "label": "Site issue"
+      },
+      {
+        "message": "Hello, I'm encountering issues with the website's search functionality. Searches are returning irrelevant results or no results at all. Can you address this issue?",
+        "label": "Site issue"
+      },
+      {
+        "message": "Hi, I've noticed that the website's SSL certificate has expired, leading to security warnings when accessing it. Can you renew the certificate to resolve this issue?",
+        "label": "Site issue"
+      },
+      {
+        "message": "Hello, I'm experiencing issues with the website's checkout process. It's not allowing me to complete my purchase. Can you look into this problem urgently?",
         "label": "Site issue"
       },
       {
