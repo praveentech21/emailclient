@@ -17,9 +17,9 @@ def feedbackunsolvedurl(subject,body,sender):
     url = f"https://praveentech21.github.io/supportpixceltest/unsolved.html?some=something&body={encoded_body}&sender={encoded_sender}&subject={encoded_subject}"
     return url
 
-def feedbackcode(subject,body,sender,response):
+def feedbackcode(subject,body,sender,classfi):
     solvedurl = feedbacksolvedurl(subject,body,sender)
     unsolvedurl = feedbackunsolvedurl(subject,body,sender)
-    formated_response = code(response,solvedurl,unsolvedurl)
+    formated_response = code(solvedurl,unsolvedurl,classfi)
     
     return formated_response

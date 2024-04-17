@@ -1,6 +1,4 @@
 import base64
-import json
-from feedback import feedbackcode
 from mailauthcate import mailauthenticate
 from email.message import EmailMessage
 from googleapiclient.discovery import build
@@ -8,11 +6,7 @@ from googleapiclient.errors import HttpError
 
 def send_email(to_address, subject):
     creds = mailauthenticate()
-    # response_content = get_responce(classfi)
-    # feedback_content = feedbackcode(subject, body, to_address, response_content)
     
-    samplevariable = "This is a sample email"
-    testingvariable = "This is a testing email"
     feedback_content = """
     <!DOCTYPE html>
 <html

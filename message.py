@@ -1,4 +1,29 @@
-def code(responce_message, solved_link, unsolved_link):
+import json
+
+def get_responses():
+    with open('responce_mails.json') as f:
+        responses_data = json.load(f)
+    return responses_data['responces']
+
+def get_responce(classfi):
+    responses = get_responses()
+    response_content = responses.get(classfi, {}).get('responce', 'Default response')
+    return response_content
+
+
+def code(solved_link, unsolved_link,classfi):
+
+  if classfi == "Login issues" :
+    url = "http://saipraveen.free.nf/sample/loginissue.png"
+  elif classfi == "Requesting course extension":
+    url = "http://saipraveen.free.nf/sample/refundissue.jpg"
+  elif classfi == "site issue":
+    url = "http://saipraveen.free.nf/sample/siteissue.png"
+  else:
+    url = "http://saipraveen.free.nf/sample/defaultclass.png"
+    
+  responce_message = get_responce(classfi)
+    
 
   code = f"""
     <!DOCTYPE html>
@@ -43,29 +68,6 @@ def code(responce_message, solved_link, unsolved_link):
   </head>
 
   <body style="word-spacing: normal; background-color: #ffffff" class="body">
-    <img
-      src="https://content.atmeta.com/trk?t=1&mid=MjY3LVBWQi05NDEAAAGPMB9ddnaZ3LD6tACvUfiHIS6QnkZbFClmMxq3g-NWaEEKBbs4rXWTHeA7qB13bVRozpWsYwyVefARYPYIoMYHtdl4amZrqk3d50fIKovxIrHAaGqdGyoiMNUKq_wo5602oHYGYHsaZ1Dv7Tu8AKt-qFJSu_nJ"
-      width="1"
-      height="1"
-      style="display: none !important"
-      alt
-    />
-
-    <!--[if !mso 9]><!-->
-    <div id="emailPreHeader" class="mktEditable" style="display: none">
-      Boost engagement and drive awareness of your app with Instagram Reels
-    </div>
-    <div style="display: none">
-      ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏
-      ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
-      ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
-      ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
-      ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
-      ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
-      ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
-      ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
-      &nbsp;
-    </div>
     <div
       style="
         background-color: #ffffff;
@@ -117,7 +119,6 @@ def code(responce_message, solved_link, unsolved_link):
                         align="center"
                         valign="top"
                       >
-                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="vertical-align:top;width:800px;" ><![endif]-->
                         <div
                           class="mj-column-per-100 mj-outlook-group-fix"
                           style="
@@ -130,7 +131,6 @@ def code(responce_message, solved_link, unsolved_link):
                             vertical-align: top;
                           "
                         >
-                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="vertical-align:middle;width:352px;" ><![endif]-->
                           <div
                             class="mj-column-per-44 mj-outlook-group-fix"
                             style="
@@ -214,26 +214,6 @@ def code(responce_message, solved_link, unsolved_link):
                                             "
                                         /></a>
                                       </div>
-                                      <!--[if !mso 9]><!-->
-                                      <div
-                                        class="mktEditable"
-                                        id="image-plain-text-bwib6oa8l"
-                                        style="
-                                          mso-hide: all;
-                                          visibility: hidden;
-                                          opacity: 0;
-                                          color: transparent;
-                                          mso-line-height-rule: exactly;
-                                          line-height: 0;
-                                          font-size: 0px;
-                                          overflow: hidden;
-                                          border-width: 0;
-                                          display: none !important;
-                                        "
-                                      >
-                                        [ Image ] [[https://pixeltests.com/]]
-                                      </div>
-                                      <!--<![endif]-->
                                     </div>
                                   </td>
                                 </tr>
@@ -458,17 +438,17 @@ def code(responce_message, solved_link, unsolved_link):
                                         mktolockimgstyle="true"
                                       >
                                         <a
-                                          href="https://youtu.be/GGTorJjJq-c?si=Ek3-Jdhv8KSxohvp"
+                                          href="https://pixeltests.com"
                                           target="_blank"
                                           style="
                                             text-decoration: none;
                                             color: #0068a5;
                                           "
                                           ><img
-                                            alt="Meta for Developers"
+                                            alt="Pixel Text"
                                             height="auto"
                                             width="400"
-                                            src="http://saipraveen.free.nf/sample/loginissue.png"
+                                            src="https://s3-eu-west-1.amazonaws.com/tpd/logos/61321bd12d5b3f001da3d44d/0x0.png"
                                             style="
                                               border: none;
                                               outline: none;
@@ -480,26 +460,7 @@ def code(responce_message, solved_link, unsolved_link):
                                             "
                                         /></a>
                                       </div>
-                                      <!--[if !mso 9]><!-->
-                                      <div
-                                        class="mktEditable"
-                                        id="image-plain-text-kwnwbp39k"
-                                        style="
-                                          mso-hide: all;
-                                          visibility: hidden;
-                                          opacity: 0;
-                                          color: transparent;
-                                          mso-line-height-rule: exactly;
-                                          line-height: 0;
-                                          font-size: 0px;
-                                          overflow: hidden;
-                                          border-width: 0;
-                                          display: none !important;
-                                        "
-                                      >
-                                        [Pixceltest]
-                                      </div>
-                                      <!--<![endif]-->
+
                                     </div>
                                   </td>
                                 </tr>
@@ -527,20 +488,16 @@ def code(responce_message, solved_link, unsolved_link):
                               width="100%"
                             ></table>
                           </div>
-                          <!--[if mso | IE]></td></tr></table><![endif]-->
                         </div>
-                        <!--[if mso | IE]></td></tr></table><![endif]-->
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>
       </table>
-      <!--<![endif]-->
       <table
         align="center"
         border="0"
@@ -629,7 +586,7 @@ def code(responce_message, solved_link, unsolved_link):
                                         ><img
                                           height="auto"
                                           width="736"
-                                          src="http://saipraveen.free.nf/sample/loginissue.png"
+                                          src="{url}"
                                           style="
                                             border: none;
                                             outline: none;
@@ -641,26 +598,7 @@ def code(responce_message, solved_link, unsolved_link):
                                           "
                                       /></a>
                                     </div>
-                                    <!--[if !mso 9]><!-->
-                                    <div
-                                      class="mktEditable"
-                                      id="image-plain-text-uwpi6n79z"
-                                      style="
-                                        mso-hide: all;
-                                        visibility: hidden;
-                                        opacity: 0;
-                                        color: transparent;
-                                        mso-line-height-rule: exactly;
-                                        line-height: 0;
-                                        font-size: 0px;
-                                        overflow: hidden;
-                                        border-width: 0;
-                                        display: none !important;
-                                      "
-                                    >
-                                      [ Pixeltest ] [[https://pixeltests.com/]]
-                                    </div>
-                                    <!--<![endif]-->
+
                                   </div>
                                 </td>
                               </tr>
@@ -708,10 +646,6 @@ def code(responce_message, solved_link, unsolved_link):
                                             Please rest assured that we are actively working to resolve the issue you've encountered. Our team is dedicated to providing prompt and effective assistance to address your concerns. please follow these steeps   ”
                                             &nbsp;</em
                                           ><br />
-                                          <!-- <em
-                                            >-Kevin Carson, SVP Global Artist
-                                            and Industry Relations at Smule</em
-                                          > -->
                                         </p>
                                         <!-- <p style="margin: 0 0">&nbsp;</p>
                                         <p style="margin: 0 0">
@@ -876,24 +810,7 @@ def code(responce_message, solved_link, unsolved_link):
                                       width="80"
                                       ><strong>Yes Solved</strong>
                                     </a>
-                                    <div
-                                      class="mktEditable"
-                                      id="button-plain-text-pogk2gcmj"
-                                      style="
-                                        mso-hide: all;
-                                        visibility: hidden;
-                                        opacity: 0;
-                                        color: transparent;
-                                        mso-line-height-rule: exactly;
-                                        line-height: 0;
-                                        font-size: 0px;
-                                        overflow: hidden;
-                                        border-width: 0;
-                                        display: none !important;
-                                      "
-                                    >
-                                      Yes Solved
-                                    </div>
+
                                   </div>
                                 </td>
                               </tr>
@@ -961,24 +878,7 @@ def code(responce_message, solved_link, unsolved_link):
                                       width="114"
                                       ><strong>Not Solved</strong>
                                     </a>
-                                    <div
-                                      class="mktEditable"
-                                      id="button-plain-text-kcixzgmz8"
-                                      style="
-                                        mso-hide: all;
-                                        visibility: hidden;
-                                        opacity: 0;
-                                        color: transparent;
-                                        mso-line-height-rule: exactly;
-                                        line-height: 0;
-                                        font-size: 0px;
-                                        overflow: hidden;
-                                        border-width: 0;
-                                        display: none !important;
-                                      "
-                                    >
-                                      Yes Solved
-                                    </div>
+
                                   </div>
                                 </td>
                               </tr>

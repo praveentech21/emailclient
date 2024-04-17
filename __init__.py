@@ -1,7 +1,7 @@
 import base64
 import json
 from authenticate import *
-from send_resopnce import send_email
+from send_resopnce import send_email, forwardmessage
 from email_classifier import classify_emails
 from flask import Flask, redirect, request, Response
 from googleapiclient.discovery import build
@@ -71,15 +71,26 @@ def fetch_emails():
 
                     prediction, confidence = classify_emails(body) 
                     # logic to send mail directly 
-                    email_sent = send_email(sender, subject, prediction, body)  
-                    if email_sent:
-                        # Append the sample message ID to send_mails.json
-                        data["mails"].append(sample)
-                        file.seek(0)
-                        json.dump(data, file, indent=4)
-                        file.truncate()
-                        print("Email sent and ID appended to send_mails.json.")
-                    return email_sent
+                    if confidence < 0.65:
+                        email_sent = forwardmessage(sender, subject, body)
+                        if email_sent:
+                            # Append the sample message ID to send_mails.json
+                            data["mails"].append(sample)
+                            file.seek(0)
+                            json.dump(data, file, indent=4)
+                            file.truncate()
+                            print("Email Forwarded since it unpredicatable. ID appended to send_mails.json.")
+                        return email_sent
+                    else:
+                        email_sent = send_email(sender, subject, prediction, body)  
+                        if email_sent:
+                            # Append the sample message ID to send_mails.json
+                            data["mails"].append(sample)
+                            file.seek(0)
+                            json.dump(data, file, indent=4)
+                            file.truncate()
+                            print("Email sent and ID appended to send_mails.json.")
+                        return email_sent
             else:
                 return "No new emails found."
 
