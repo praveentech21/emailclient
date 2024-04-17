@@ -69,8 +69,7 @@ def fetch_emails():
                                 body = base64.urlsafe_b64decode(part['body']['data']).decode('utf-8')
                                 break
 
-                    prediction, confidence = classify_emails(body) 
-                    # logic to send mail directly 
+                    prediction = classify_emails(body, subject, sender)  
                     email_sent = send_email(sender, subject, prediction, body)  
                     if email_sent:
                         # Append the sample message ID to send_mails.json
