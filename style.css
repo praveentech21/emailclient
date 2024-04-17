@@ -1,0 +1,179 @@
+
+#outlook a {
+  padding: 0;
+}
+
+body,
+.body {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+table {
+  border-spacing: 0;
+}
+
+img {
+  border: 0;
+  height: auto;
+  line-height: 100%;
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+}
+
+p {
+  display: block;
+  margin: 13px 0;
+}
+
+@media only screen and (min-width: 480px) {
+  .mj-column-per-100 {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .mj-column-per-44 {
+    width: 44% !important;
+    max-width: 44%;
+  }
+
+  .mj-column-per-9 {
+    width: 9% !important;
+    max-width: 9%;
+  }
+
+  .mj-column-per-22 {
+    width: 22% !important;
+    max-width: 22%;
+  }
+
+  .mj-column-per-25 {
+    width: 25% !important;
+    max-width: 25%;
+  }
+
+  .mj-column-per-55 {
+    width: 55% !important;
+    max-width: 55%;
+  }
+
+  .mj-column-per-45 {
+    width: 45% !important;
+    max-width: 45%;
+  }
+
+  .mj-column-per-50 {
+    width: 50% !important;
+    max-width: 50%;
+  }
+
+  .mj-column-per-24 {
+    width: 24% !important;
+    max-width: 24%;
+  }
+
+  .mj-column-per-33 {
+    width: 33% !important;
+    max-width: 33%;
+  }
+
+  .mj-column-per-43 {
+    width: 43% !important;
+    max-width: 43%;
+  }
+}
+
+u ~ div ul,
+u ~ div ol {
+  margin-left: -3px;
+}
+
+.links-0068A5-underline a {
+  color: #0068a5;
+  text-decoration: underline;
+}
+
+[x-apple-data-detectors-type] {
+  color: inherit !important;
+  -webkit-text-decoration-color: inherit !important;
+  text-decoration: inherit !important;
+  font-weight: inherit !important;
+}
+
+.links-67788A-underline a {
+  color: #67788a;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 480px) {
+  .img-full-width {
+    max-width: 100% !important;
+  }
+}
+
+p {
+  margin: 0 0;
+}
+
+ul {
+  display: block;
+}
+
+ul li {
+  list-style: disc;
+}
+
+li li {
+  list-style: circle;
+}
+
+sup,
+sub {
+  line-height: 0;
+}
+
+body a {
+  text-decoration: none;
+  color: #0068a5;
+}
+
+.image-highlight {
+  transition: 0.3s;
+}
+
+.image-highlight:hover {
+  filter: brightness(1.2);
+}
+
+.button-highlight {
+  transition: 0.3s;
+}
+
+.button-highlight:hover {
+  filter: brightness(1.5);
+}
+
+@media only screen and (min-width: 480px) {
+  .hide-on-mobile {
+    display: block !important;
+  }
+
+  .hide-on-desktop {
+    display: none !important;
+  }
+}
+
+.hide-on-desktop {
+  display: block;
+}
+
+.hide-on-mobile {
+  display: none;
+}
+
+[class~="x_body"] {
+  width: 99.9%;
+}

@@ -20,6 +20,6 @@ def feedbackunsolvedurl(subject,body,sender):
 def feedbackcode(subject,body,sender,response):
     solvedurl = feedbacksolvedurl(subject,body,sender)
     unsolvedurl = feedbackunsolvedurl(subject,body,sender)
-    formated_response = code.format(responce_message = response,solved_link = solvedurl,unsolved_link = unsolvedurl)
+    formated_response = code(response,solvedurl,unsolvedurl)
     
     return formated_response

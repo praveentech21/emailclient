@@ -1,8 +1,6 @@
-responce_message = "Sample"
-solved_link = "testing solved link"
-unsolved_link = "testing unsolved link"
+def code(responce_message, solved_link, unsolved_link):
 
-code = """
+  code = f"""
     <!DOCTYPE html>
 <html
   xmlns="http://www.w3.org/1999/xhtml"
@@ -14,37 +12,6 @@ code = """
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <style type="text/css">
-      #outlook a {
-        padding: 0;
-      }
-
-      body,
-      .body {
-        margin: 0;
-        padding: 0;
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-      }
-
-      table {
-        border-spacing: 0;
-      }
-
-      img {
-        border: 0;
-        height: auto;
-        line-height: 100%;
-        outline: none;
-        text-decoration: none;
-        -ms-interpolation-mode: bicubic;
-      }
-
-      p {
-        display: block;
-        margin: 13px 0;
-      }
-    </style>
     <link
       href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700"
       rel="stylesheet"
@@ -60,164 +27,18 @@ code = """
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      href="http://saipraveen.free.nf/sample/style.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <style type="text/css">
       @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
       @import url(https://client-data.knak.io/production/company_data/5e501bf6edcaa/custom-fonts/6011caa83bb3f/fonts.css);
 
       @import url(https://assets.knak.io/custom-fonts/Helvetica/Helvetica.css);
-    </style>
-    <style type="text/css">
-      @media only screen and (min-width: 480px) {
-        .mj-column-per-100 {
-          width: 100% !important;
-          max-width: 100%;
-        }
-
-        .mj-column-per-44 {
-          width: 44% !important;
-          max-width: 44%;
-        }
-
-        .mj-column-per-9 {
-          width: 9% !important;
-          max-width: 9%;
-        }
-
-        .mj-column-per-22 {
-          width: 22% !important;
-          max-width: 22%;
-        }
-
-        .mj-column-per-25 {
-          width: 25% !important;
-          max-width: 25%;
-        }
-
-        .mj-column-per-55 {
-          width: 55% !important;
-          max-width: 55%;
-        }
-
-        .mj-column-per-45 {
-          width: 45% !important;
-          max-width: 45%;
-        }
-
-        .mj-column-per-50 {
-          width: 50% !important;
-          max-width: 50%;
-        }
-
-        .mj-column-per-24 {
-          width: 24% !important;
-          max-width: 24%;
-        }
-
-        .mj-column-per-33 {
-          width: 33% !important;
-          max-width: 33%;
-        }
-
-        .mj-column-per-43 {
-          width: 43% !important;
-          max-width: 43%;
-        }
-      }
-    </style>
-    <style type="text/css">
-      u ~ div ul,
-      u ~ div ol {
-        margin-left: -3px;
-      }
-
-      .links-0068A5-underline a {
-        color: #0068a5;
-        text-decoration: underline;
-      }
-
-      [x-apple-data-detectors-type] {
-        color: inherit !important;
-        -webkit-text-decoration-color: inherit !important;
-        text-decoration: inherit !important;
-        font-weight: inherit !important;
-      }
-
-      .links-67788A-underline a {
-        color: #67788a;
-        text-decoration: underline;
-      }
-
-      @media only screen and (min-width: 480px) {
-        .img-full-width {
-          max-width: 100% !important;
-        }
-      }
-    </style>
-    <style type="text/css">
-      p {
-        margin: 0 0;
-      }
-
-      ul {
-        display: block;
-      }
-
-      ul li {
-        list-style: disc;
-      }
-
-      li li {
-        list-style: circle;
-      }
-
-      sup,
-      sub {
-        line-height: 0;
-      }
-
-      body a {
-        text-decoration: none;
-        color: #0068a5;
-      }
-
-      .image-highlight {
-        transition: 0.3s;
-      }
-
-      .image-highlight:hover {
-        filter: brightness(1.2);
-      }
-
-      .button-highlight {
-        transition: 0.3s;
-      }
-
-      .button-highlight:hover {
-        filter: brightness(1.5);
-      }
-
-      @media only screen and (min-width: 480px) {
-        .hide-on-mobile {
-          display: block !important;
-        }
-
-        .hide-on-desktop {
-          display: none !important;
-        }
-      }
-
-      .hide-on-desktop {
-        display: block;
-      }
-
-      .hide-on-mobile {
-        display: none;
-      }
-    </style>
-    <style>
-      [class~="x_body"] {
-        width: 99.9%;
-      }
+      @import url(http://saipraveen.free.nf/sample/style.css);
+      
     </style>
   </head>
 
@@ -1180,5 +1001,4 @@ code = """
 </html>
 
     """
-    
-    
+  return code
