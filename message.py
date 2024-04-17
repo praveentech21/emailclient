@@ -1,3 +1,7 @@
+responce_message = "Sample"
+solved_link = "testing solved link"
+unsolved_link = "testing unsolved link"
+
 code = """
     <!DOCTYPE html>
 <html
@@ -1176,3 +1180,5 @@ code = """
 </html>
 
     """
+    
+    
