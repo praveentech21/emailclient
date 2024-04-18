@@ -1,6 +1,142 @@
 {
   "examples": [
     {
+      "message": "Hi [Support Team], I seem to have forgotten my password and I'm unable to log into my account. Could you please assist me with resetting my password?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hello, I'm encountering trouble accessing my account due to a forgotten password. Can you help me initiate the password reset process?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi there, I've tried multiple times to log in, but unfortunately, I've forgotten my password. Could you guide me through the steps to reset it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi Support, I'm having difficulty accessing my account due to a password issue. Could you provide instructions on how to reset it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi, I've encountered a problem logging into my account because I can't remember my password. Can you help me reset it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hello Support Team, I need assistance with resetting my password as I'm unable to access my account. Could you please provide guidance on how to proceed?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi, I've forgotten my password and I'm unable to log into my account. Can you please help me reset it so I can regain access?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi Support, I seem to have misplaced my password and I'm unable to access my account. Could you provide assistance with initiating a password reset?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hello [Name], I'm experiencing difficulty logging into my account because I've forgotten my password. Can you please help me reset it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi Support Team, I'm facing an issue accessing my account due to a forgotten password. Could you kindly assist me in resetting it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi, I can't seem to remember my password and I'm unable to access my account. Can you guide me through the process of resetting it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hello, I've tried several times to log in, but it seems I've forgotten my password. Could you please provide instructions on how to reset it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi Support, I need to reset my password as I'm unable to log into my account. Could you provide assistance with this matter?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi [Name], I've encountered a problem logging into my account because I've forgotten my password. Can you please assist me with resetting it?",
+      "label": "password reset"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope this message finds you well. I'm writing to request an extension for the completion of my course. Due to unforeseen circumstances, I've fallen behind on my coursework. Could you please grant me an extension so I can catch up? Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I hope you're doing well. I'm reaching out to request an extension for my course. I've been facing some challenges lately which have affected my ability to keep up with the course schedule. Would it be possible to extend the deadline to allow me more time to complete the assignments? Thank you for considering my request.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I'm writing to request an extension for my course. Unfortunately, I've encountered some unexpected difficulties in my personal life which have hindered my progress. I would greatly appreciate it if you could grant me an extension to ensure I can submit my work to the best of my ability. Thank you for your understanding and support.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope you're doing well. I'm writing to request an extension for my course. I've been dealing with some health issues recently which have affected my ability to focus on my studies. I would be grateful if you could provide me with a bit more time to complete the assignments. Thank you for your consideration.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I'm reaching out to request an extension for my course. Unfortunately, I've encountered technical difficulties with accessing some course materials, which has slowed down my progress. Could you please grant me an extension to ensure I can complete the assignments properly? Thank you for your assistance.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope you're doing well. I'm writing to request an extension for my course. I've been juggling multiple responsibilities lately, and as a result, I haven't been able to dedicate as much time to the course as I would like. Would it be possible to extend the deadline to give me more time to complete the assignments? Thank you for your consideration.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope this message finds you well. I'm writing to request an extension for my course. I've been experiencing some personal challenges recently that have affected my ability to focus on my studies. Could you please grant me an extension to ensure I can submit my work on time? Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I'm reaching out to request an extension for my course. I've been dealing with some family issues lately which have made it difficult for me to keep up with the coursework. I would greatly appreciate it if you could provide me with an extension to allow me more time to complete the assignments. Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope you're doing well. I'm writing to request an extension for my course. I've encountered some unexpected work commitments that have taken up a significant amount of my time recently. Would it be possible to extend the deadline to accommodate these commitments? Thank you for your consideration.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I'm reaching out to request an extension for my course. I've been struggling with the course material and need some extra time to fully grasp the concepts and complete the assignments. Could you please grant me an extension to ensure I can submit quality work? Thank you for your support.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope this message finds you well. I'm writing to request an extension for my course. I've been experiencing some personal difficulties lately which have affected my ability to focus on my studies. Could you please grant me an extension to ensure I can submit my work on time? Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I hope you're doing well. I'm reaching out to request an extension for my course. I've been experiencing technical issues with the online platform, which have slowed down my progress. Would it be possible to extend the deadline to ensure I can complete the assignments properly? Thank you for your assistance.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope this message finds you well. I'm writing to request an extension for my course. I've been dealing with some health issues recently which have affected my ability to focus on my studies. Could you please grant me an extension to ensure I can submit quality work? Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I'm reaching out to request an extension for my course. Unfortunately, I've encountered some unexpected family obligations that have taken up a significant amount of my time recently. I would greatly appreciate it if you could provide me with an extension to allow me more time to complete the assignments. Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope you're doing well. I'm writing to request an extension for my course. I've been dealing with some personal challenges lately that have affected my ability to focus on my studies. Would it be possible to extend the deadline to give me more time to complete the assignments? Thank you for your consideration.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I hope this message finds you well. I'm writing to request an extension for my course. I've encountered some unexpected work commitments that have made it difficult for me to keep up with the coursework. Could you please grant me an extension to ensure I can submit my work on time? Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I'm reaching out to request an extension for my course. Unfortunately, I've been dealing with some personal difficulties lately that have affected my ability to focus on my studies. I would greatly appreciate it if you could provide me with an extension to allow me more time to complete the assignments. Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I hope you're doing well. I'm writing to request an extension for my course. I've encountered some unexpected family obligations that have taken up a significant amount of my time recently. Would it be possible to extend the deadline to accommodate these obligations? Thank you for your consideration.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hello [Instructor's Name], I hope this message finds you well. I'm writing to request an extension for my course. I've been struggling to balance my coursework with other responsibilities lately, which has affected my progress. Could you please grant me an extension to ensure I can submit quality work? Thank you for your understanding.",
+      "label": "course extension"
+    },
+    {
+      "message": "Hi [Instructor's Name], I'm reaching out to request an extension for my course. I've been experiencing technical difficulties with the course materials, which have hindered my progress. Would it be possible to extend the deadline to ensure I can complete the assignments properly? Thank you for your assistance.",
+      "label": "course extension"
+    },
+    {
       "message": "Dear team, how do I get my final certification?",
       "label": "Final certification"
     },
@@ -22,311 +158,191 @@
     },
     {
       "message": "Hello, I recently purchased the course but I'm not satisfied with it. Can I cancel my purchase and get a refund?",
-      "label": "Cancel course"
+      "label": "others"
     },
     {
       "message": "Hi there, I've enrolled in the course but it doesn't meet my expectations. Can I cancel my purchase and receive a refund?",
-      "label": "Cancel course"
+      "label": "others"
     },
     {
       "message": "Dear Support Team, I've decided to cancel my course purchase due to unforeseen circumstances. Could you please guide me through the refund process?",
-      "label": "Cancel course"
+      "label": "others"
     },
     {
       "message": "Hi, I've realized that the course content is not suitable for my needs. Can I cancel my purchase and get a refund?",
-      "label": "Cancel course"
+      "label": "others"
     },
     {
       "message": "Hello, I'm not satisfied with the course materials. Can I cancel my purchase and receive a refund as per your refund policy?",
-      "label": "Cancel course"
+      "label": "others"
     },
     {
       "message": "Dear Support Team, I would like to cancel my course subscription and request a refund. How can I proceed with this process?",
-      "label": "Cancel course"
+      "label": "others"
     },
     {
       "message": "Hello, I recently changed my email address and would like to update it for my course account. How can I proceed with this change?",
-      "label": "Change address"
+      "label": "others"
     },
     {
       "message": "Hi, I'm planning to switch to a new email address. Can you help me transfer my course subscription to the new email?",
-      "label": "Change address"
+      "label": "others"
     },
     {
       "message": "Dear Support Team, I need to change the email address associated with my course account. Could you please assist me with this process?",
-      "label": "Change address"
+      "label": "others"
     },
     {
       "message": "Hi, I'm no longer using my current email address. Can I transfer my course access to someone else's email?",
-      "label": "Change address"
+      "label": "others"
     },
     {
       "message": "Hello, I'm considering transferring my course subscription to a friend. Is it possible to change the email associated with my account to theirs?",
-      "label": "Change address"
+      "label": "others"
     },
     {
       "message": "Dear Team, I would like to update my email address for my course account. Can you guide me through the steps to make this change?",
-      "label": "Change address"
+      "label": "others"
     },
     {
       "message": "Hello, I'm experiencing difficulties with the course videos. They're not playing properly. Can you help me troubleshoot this issue?",
-      "label": "Videos not playing"
+      "label": "others"
     },
     {
       "message": "Hi there, whenever I try to play the course videos, they don't load. Could you please look into this issue and provide a solution?",
-      "label": "Videos not playing"
+      "label": "others"
     },
     {
       "message": "Dear Support Team, I'm having trouble accessing the course videos. Every time I click on a video, it doesn't start playing. What could be the problem?",
-      "label": "Videos not playing"
+      "label": "others"
     },
     {
       "message": "Hi, I'm unable to watch any of the course videos. Whenever I click play, nothing happens. Can you assist me in resolving this issue?",
-      "label": "Videos not playing"
+      "label": "others"
     },
     {
       "message": "Hello, the course videos seem to be buffering indefinitely and not playing. Is there a problem with the video player or my internet connection?",
-      "label": "Videos not playing"
+      "label": "others"
     },
     {
       "message": "Dear Team, I'm encountering an issue where the course videos are stuck on a loading screen and won't play. Can you please investigate and provide a solution?",
-      "label": "Videos not playing"
+      "label": "others"
     },
     {
       "message": "Hello, I'm interested in enrolling in your course. Can you please confirm if it comes with a certificate of completion?",
-      "label": "Certificate of completion"
+      "label": "others"
     },
     {
       "message": "Hi there, I'm considering purchasing your course. Could you provide information on whether it includes a certificate of completion?",
-      "label": "Certificate of completion"
+      "label": "others"
     },
     {
       "message": "Dear Support Team, before I enroll in the course, I'd like to know if there's a certificate awarded upon completion. Can you clarify this for me?",
-      "label": "Certificate of completion"
+      "label": "others"
     },
     {
       "message": "Hi, I'm interested in your course but need to know if there's a certificate provided after completing it. Can you confirm?",
-      "label": "Certificate of completion"
+      "label": "others"
     },
     {
       "message": "Hello, I'm considering taking your course for professional development. Can you please confirm if there's a certificate issued upon completion?",
-      "label": "Certificate of completion"
+      "label": "others"
     },
     {
       "message": "Dear Team, I'm interested in your course but require confirmation on whether it comes with a certificate of completion. Can you provide this information?",
-      "label": "Certificate of completion"
+      "label": "others"
     },
     {
-      "message": "Hi [Name], I'm experiencing issues logging into my account. Can you please reset my password? Thanks.",
-      "label": "Login issues"
+      "message": "Hi there, I've been trying to access the site for the past hour, but it seems to be down. Are you experiencing any server issues?",
+      "label": "others"
     },
     {
-      "message": "Hello support team, I've been trying to log in to my account but I keep getting an error message. Can you assist me with troubleshooting?",
-      "label": "Login issues"
+      "message": "Hello support team, I'm encountering difficulties accessing the site. It's loading very slowly and sometimes not at all. Could you please investigate the issue?",
+      "label": "others"
     },
     {
-      "message": "Hi, I'm having difficulty accessing my account. Could you help me regain access or update my login credentials?",
-      "label": "Login issues"
+      "message": "Hi, the site appears to be overloaded at the moment. I keep getting timeout errors when trying to access it. Is there a maintenance or server upgrade happening?",
+      "label": "others"
     },
     {
-      "message": "Hi support, I forgot my password and can't seem to login. Can you provide assistance with resetting it?",
-      "label": "Login issues"
+      "message": "Hello, I've noticed that the site is experiencing intermittent downtime. It's been happening on and off for the past few days. Could you please look into this matter?",
+      "label": "others"
     },
     {
-      "message": "I forgot my password. Can you please reset it for me?",
-      "label": "Login issues"
+      "message": "it seems your website has taken an impromptu siesta. Every attempt to visit ends with an empty page and a bemused expression. Is it on a digital retreat or simply enjoying some quiet time?",
+      "label": "others"
     },
     {
-      "message": "I'm unable to login despite entering the correct credentials.",
-      "label": "Login issues"
+      "message": "Hi, I'm encountering internal server errors when trying to access certain pages on the site. It's affecting my ability to complete tasks. Could you please address this issue as soon as possible?",
+      "label": "others"
     },
     {
-      "message": "Hello, I'm encountering difficulties logging into my account. It seems my password is not working. Can you help me reset it?",
-      "label": "Login issues"
+      "message": "your website seems to be staging a rebellion, displaying error messages like protest banners. It's as if the digital realm has declared independence, leaving visitors stranded in a sea of frustration. ",
+      "label": "others"
     },
     {
-      "message": "Hi support team, I've been locked out of my account after too many failed login attempts. Can you assist me in regaining access?",
-      "label": "Login issues"
+      "message": "Hello, I'm experiencing issues accessing certain features on the website. Buttons and links seem unresponsive. Could you please investigate this issue?",
+      "label": "others"
     },
     {
-      "message": "Hi, I'm having trouble logging into my account from a new device. It's asking for a verification code that I haven't received. Can you help?",
-      "label": "Login issues"
+      "message": "Hi, I'm encountering problems with the website's navigation. Pages are not loading correctly, and I'm unable to move between sections. Can you look into this matter?",
+      "label": "others"
     },
     {
-      "message": "Hi there, I've recently changed my email address associated with my account, and now I'm unable to log in. Can you update my login credentials?",
-      "label": "Login issues"
+      "message": "Hello, I've noticed that images on the website are not displaying properly. It appears broken or missing. Could you please fix this issue?",
+      "label": "others"
     },
     {
-      "message": "Hello support, I'm receiving an 'account locked' message when trying to log in. Can you please unlock my account?",
-      "label": "Login issues"
+      "message": "Hi there, I'm having trouble accessing the website from my mobile device. Pages are not rendering correctly, and the layout seems distorted. Can you assist me with this problem?",
+      "label": "others"
     },
     {
-      "message": "Hi, I'm encountering an issue where the login page keeps refreshing and not allowing me to enter my credentials. Can you investigate?",
-      "label": "Login issues"
+      "message": "Hello, I'm encountering issues with the website's search functionality. Searches are returning irrelevant results or no results at all. Can you address this issue?",
+      "label": "others"
     },
     {
-      "message": "Hi , I hope you're doing well. I seem to be having trouble with the access link you provided for my course. The link directs me to a password reset page, but unfortunately, it's not working for me. Could you please provide me with the correct access link to the course? I appreciate your assistance.",
-      "label": "Link issue"
+      "message": "Hi, I've noticed that the website's SSL certificate has expired, leading to security warnings when accessing it. Can you renew the certificate to resolve this issue?",
+      "label": "others"
     },
     {
-      "message": "Hi , I trust this message finds you in good spirits. I've encountered an issue with the access link you sent over for my course. When I click on it, it leads me to a password reset page, which doesn't seem to be functioning properly. Would it be possible for you to furnish me with the accurate access link to the course? Thank you for your help.",
-      "label": "Link issue"
+      "message": "Hello, I'm experiencing issues with the website's checkout process. It's not allowing me to complete my purchase. Can you look into this problem urgently?",
+      "label": "others"
     },
     {
-      "message": "I'm experiencing difficulty accessing the course using the link provided. It seems to be leading me to a password reset page instead of the course material. Could you please provide me with an alternative link?",
-      "label": "Link issue"
+      "message": "Hello Support Team, I hope this message finds you well. I'm writing to request a password reset for my account as I'm having trouble logging in. I've attempted to access my account on both my laptop and mobile device without success. Could you please provide me with new credentials or update the email address associated with my account to k78737@gmail.com? Your assistance in resolving this matter would be greatly appreciated. Thank you. Best regards, [Your Name]",
+      "label": "others"
     },
     {
-      "message": "Hello , I hope you're having a great day. I'm encountering a bit of trouble with the access link you provided for my course. It appears to be directing me to a password reset page, but unfortunately, the link seems to be broken. Could you please share with me the correct access link to the course? Your assistance would be greatly appreciated.",
-      "label": "Link issue"
+      "message": "Hi there, I'm experiencing difficulty logging into my account and have tried accessing it from multiple devices. Would it be possible to reset my password or update the email address associated with my account to k78737@gmail.com? Your prompt assistance in resolving this issue would be highly appreciated. Thank you. Regards, [Your Name]",
+      "label": "others"
     },
     {
-      "message": "Hi , I trust you're well. I'm reaching out regarding the access link you shared for my course. It seems that the link redirects me to a password reset page, and regrettably, the page isn't functioning as expected. Would you mind providing me with the direct access link to the course? Thank you kindly for your help.",
-      "label": "Link issue"
+      "message": "Hi Support Team, I'm reaching out to request assistance with account recovery. I've been unable to log in despite multiple attempts on different devices. Could you please reset my password or update the email address linked to my account to k78737@gmail.com? Your help in resolving this matter would be invaluable. Thank you. Warm regards, [Your Name]",
+      "label": "others"
     },
     {
-      "message": "Hi , I hope this message finds you in good health. I'm encountering an issue with the access link you forwarded for my course. Upon clicking the link, I'm directed to a password reset page, but unfortunately, it doesn't seem to be operational. Could you please supply me with the correct access link to the course? I appreciate your prompt assistance.",
-      "label": "Link issue"
+      "message": "Hello, I'm having trouble accessing my account and need assistance with account recovery. I've tried logging in from various devices without success. Could you please reset my password or update the email address associated with my account to k78737@gmail.com? Your prompt attention to this matter would be greatly appreciated. Thank you. Best regards, [Your Name]",
+      "label": "others"
     },
     {
-      "message": "Hi , I hope you're doing well. Unfortunately, I've encountered unexpected health issues that have prevented me from participating in the online LMS classes for Pixeltests. I am eager to resume my studies and would appreciate an extension starting from February 24th to catch up on the missed material. Could you please advise on the necessary steps to proceed? Thank you for your understanding. Warm regards, [Your Name]",
-      "label": "Requesting course extension"
-      },
-      {
-        "message": "I've encountered unexpected challenges that have prevented me from attending the course as planned. Could you please grant me an extension from February 24th onwards to complete the remaining sessions? Your assistance is appreciated",
-        "label": "Requesting course extension"
-        },
-      {
-      "message": "Hello , I've been trying to log in to my account but I keep getting an error message. Can you assist me with troubleshooting? I'm experiencing difficulties accessing the course material due to this issue. Any help would be appreciated. Thank you. Regards, [Your Name]",
-      "label": "Requesting course extension"
-      },
-      {
-      "message": "Hi , I trust you're doing well. I seem to be having trouble with the access link you provided for my course. The link directs me to a password reset page, but unfortunately, it's not working for me. Could you please provide me with the correct access link to the course? I appreciate your assistance. Best regards, [Your Name]",
-      "label": "Requesting course extension"
-      },
-      {
-      "message": "Hi , I'm reaching out regarding the access link you shared for my course. It seems that the link redirects me to a password reset page, and regrettably, the page isn't functioning as expected. Would you mind providing me with the direct access link to the course? Thank you kindly for your help. Regards, [Your Name]",
-      "label": "Requesting course extension"
-      },
-      {
-      "message": "Hi , I trust this message finds you in good health. I'm encountering an issue with the access link you forwarded for my course. Upon clicking the link, I'm directed to a password reset page, but unfortunately, it doesn't seem to be operational. Could you please supply me with the correct access link to the course? I appreciate your prompt assistance. Warm regards, [Your Name]",
-      "label": "Requesting course extension"
-      },
-      {
-        "message": "Hi, I'm facing unexpected personal commitments that are hindering my ability to keep up with the course schedule. Could you please grant me an extension to complete the remaining coursework? Thank you for your consideration.",
-        "label": "Requesting course extension"
-      },
-      {
-        "message": "Hello, I've encountered technical difficulties with the course platform, which have caused delays in my progress. Can I request an extension to ensure I have sufficient time to complete the required tasks?",
-        "label": "Requesting course extension"
-      },
-      {
-        "message": "Hi, I'm currently dealing with a family emergency that has disrupted my study routine. Could I please request an extension to accommodate this unexpected situation?",
-        "label": "Requesting course extension"
-      },
-      {
-        "message": "Hello, I've been experiencing health issues that have affected my ability to focus on the course materials. Can you please provide an extension to help me catch up on the missed content?",
-        "label": "Requesting course extension"
-      },
-      {
-        "message": "Hi, I've encountered unforeseen work-related obligations that have consumed much of my time, making it difficult to keep up with the course schedule. Can I request an extension to complete the coursework?",
-        "label": "Requesting course extension"
-      },
-      {
-        "message": "Hello, I'm dealing with personal challenges that have impeded my progress in the course. Can you please grant me an extension to allow me more time to complete the assignments? Thank you for your understanding.",
-        "label": "Requesting course extension"
-      },
-      {
-        "message": "Hi there, I've been trying to access the site for the past hour, but it seems to be down. Are you experiencing any server issues?",
-        "label": "Site issue"
-      },
-      {
-        "message": "Hello support team, I'm encountering difficulties accessing the site. It's loading very slowly and sometimes not at all. Could you please investigate the issue?",
-        "label": "Site issue"
-      },
-      {
-        "message": "Hi, the site appears to be overloaded at the moment. I keep getting timeout errors when trying to access it. Is there a maintenance or server upgrade happening?",
-        "label": "Site issue"
-      },
-      {
-        "message": "Hello, I've noticed that the site is experiencing intermittent downtime. It's been happening on and off for the past few days. Could you please look into this matter?",
-        "label": "Site issue"
-      },
-      {
-        "message": "it seems your website has taken an impromptu siesta. Every attempt to visit ends with an empty page and a bemused expression. Is it on a digital retreat or simply enjoying some quiet time?",
-        "label": "Site issue"
-      },
-      {
-        "message": "Hi, I'm encountering internal server errors when trying to access certain pages on the site. It's affecting my ability to complete tasks. Could you please address this issue as soon as possible?",
-        "label": "Site issue"
-      },
-      {
-        "message": "your website seems to be staging a rebellion, displaying error messages like protest banners. It's as if the digital realm has declared independence, leaving visitors stranded in a sea of frustration. ",
-        "label": "Site issue"
-      },
-      {
-        "message": "Hello, I'm experiencing issues accessing certain features on the website. Buttons and links seem unresponsive. Could you please investigate this issue?",
-        "label": "Site issue"
-      },
-      {
-        "message": "Hi, I'm encountering problems with the website's navigation. Pages are not loading correctly, and I'm unable to move between sections. Can you look into this matter?",
-        "label": "Site issue"
-      },
-      {
-        "message": "Hello, I've noticed that images on the website are not displaying properly. It appears broken or missing. Could you please fix this issue?",
-        "label": "Site issue"
-      },
-      {
-        "message": "Hi there, I'm having trouble accessing the website from my mobile device. Pages are not rendering correctly, and the layout seems distorted. Can you assist me with this problem?",
-        "label": "Site issue"
-      },
-      {
-        "message": "Hello, I'm encountering issues with the website's search functionality. Searches are returning irrelevant results or no results at all. Can you address this issue?",
-        "label": "Site issue"
-      },
-      {
-        "message": "Hi, I've noticed that the website's SSL certificate has expired, leading to security warnings when accessing it. Can you renew the certificate to resolve this issue?",
-        "label": "Site issue"
-      },
-      {
-        "message": "Hello, I'm experiencing issues with the website's checkout process. It's not allowing me to complete my purchase. Can you look into this problem urgently?",
-        "label": "Site issue"
-      },
-      {
-        "message": "Hello Support Team, I hope this message finds you well. I'm writing to request a password reset for my account as I'm having trouble logging in. I've attempted to access my account on both my laptop and mobile device without success. Could you please provide me with new credentials or update the email address associated with my account to k78737@gmail.com? Your assistance in resolving this matter would be greatly appreciated. Thank you. Best regards, [Your Name]",
-        "label": "Account recovery"
-      },
-      {
-        "message": "Hi there, I'm experiencing difficulty logging into my account and have tried accessing it from multiple devices. Would it be possible to reset my password or update the email address associated with my account to k78737@gmail.com? Your prompt assistance in resolving this issue would be highly appreciated. Thank you. Regards, [Your Name]",
-        "label": "Account recovery"
-      },
-      {
-        "message": "Hi Support Team, I'm reaching out to request assistance with account recovery. I've been unable to log in despite multiple attempts on different devices. Could you please reset my password or update the email address linked to my account to k78737@gmail.com? Your help in resolving this matter would be invaluable. Thank you. Warm regards, [Your Name]",
-        "label": "Account recovery"
-      },
-      {
-        "message": "Hello, I'm having trouble accessing my account and need assistance with account recovery. I've tried logging in from various devices without success. Could you please reset my password or update the email address associated with my account to k78737@gmail.com? Your prompt attention to this matter would be greatly appreciated. Thank you. Best regards, [Your Name]",
-        "label": "Account recovery"
-      },
-      {
-        "message": "Hi Support, I hope you're doing well. I'm encountering issues logging into my account and require assistance with account recovery. Despite multiple attempts, I've been unable to access my account from either my laptop or mobile device. Could you please reset my password or update the email address on file to k78737@gmail.com? Your help in resolving this matter would be much appreciated. Thank you. Warm regards, [Your Name]",
-        "label": "Account recovery"
-      },
-      {
-        "message": "it appears my account has taken a sudden sabbatical without prior notice, leaving me in a state of digital limbo. Despite numerous attempts to coax it back with forgotten passwords and security questions, it remains stubbornly inaccessible. Is it indulging in a digital detox or simply testing my patience? Any assistance in restoring its digital presence would be greatly appreciated.",
-        "label": "Account recovery"
-      },
-      {
-        "message":"Hi, can't log in. Need password reset. Thanks!",
-        "label":"Account recovery"
-      },
-      {
-        "message":"Hello, account locked. Need reset ASAP. Thanks!",
-        "label":"Account recovery"
-      },
-      {
-        "message":"Hey there, forgot login details. Can you assist?",
-        "label":"Account recovery"
-      }
+      "message": "Hi Support, I hope you're doing well. I'm encountering issues logging into my account and require assistance with account recovery. Despite multiple attempts, I've been unable to access my account from either my laptop or mobile device. Could you please reset my password or update the email address on file to k78737@gmail.com? Your help in resolving this matter would be much appreciated. Thank you. Warm regards, [Your Name]",
+      "label": "others"
+    },
+    {
+      "message": "it appears my account has taken a sudden sabbatical without prior notice, leaving me in a state of digital limbo. Despite numerous attempts to coax it back with forgotten passwords and security questions, it remains stubbornly inaccessible. Is it indulging in a digital detox or simply testing my patience? Any assistance in restoring its digital presence would be greatly appreciated.",
+      "label": "others"
+    },
+    {
+      "message": "Hi, can't log in. Need password reset. Thanks!",
+      "label": "others"
+    },
+    {
+      "message": "Hello, account locked. Need reset ASAP. Thanks!",
+      "label": "others"
+    },
+    {
+      "message": "Hey there, forgot login details. Can you assist?",
+      "label": "others"
+    }
   ]
 }
