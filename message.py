@@ -22,6 +22,9 @@ def code(solved_link, unsolved_link,classfi):
   elif classfi == "course extension":
     url = "http://saipraveen.free.nf/sample/courseextension.png"
     youtube_url = "https://youtube.com/shorts/JVu3T7LrXKo?si=km-vefojF6HquKnL"
+  else:
+    url = ""
+    youtube_url = ""
     
   responce_message = get_responce(classfi)
     
@@ -642,32 +645,10 @@ def code(solved_link, unsolved_link,classfi):
                                       >
                                         <p style="margin: 0 0">
                                           <em
-                                            >“We sincerely apologize for any inconvenience you may have experienced. Your satisfaction is our top priority, and we regret that we fell short of meeting your expectations.
-
-                                            Please rest assured that we are actively working to resolve the issue you've encountered. Our team is dedicated to providing prompt and effective assistance to address your concerns. please follow these steeps   ”
+                                            >“We sincerely apologize for any inconvenience you may have experienced. Your satisfaction is our top priority. you can trobble shoot your issue by following the below steps. If you are not satisfied with this solution, please let us know by clicking the No button below. We will be happy to assist you further.”
                                             &nbsp;</em
                                           ><br />
                                         </p>
-                                        <!-- <p style="margin: 0 0">&nbsp;</p>
-                                        <p style="margin: 0 0">
-                                          Enabling
-                                          <a
-                                            href="https://content.atmeta.com/n/MjY3LVBWQi05NDEAAAGPMB9ddtadOfb4B6_Z68ee3OBpJZHQb6xK1YP982oND43OPCSrJ0AOwDFdgBp7Dy_5QSRo7hw="
-                                            target="_blank"
-                                            rel="noopener"
-                                            style="
-                                              color: rgb(0, 104, 165);
-                                              text-decoration: underline;
-                                            "
-                                            >Sharing to Reels</a
-                                          >
-                                          makes it easy for people to share
-                                          short-form videos directly to
-                                          Instagram Reels from your app, where
-                                          they can reach a wider audience and
-                                          increase awareness of your app at the
-                                          same time.&nbsp;
-                                        </p> -->
                                         <p style="margin: 0 0">&nbsp;</p>
                                         <p style="margin: 0 0">
                                           <strong

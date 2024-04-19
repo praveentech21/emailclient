@@ -155,6 +155,186 @@
     {
       "message": "Hello, I'm inquiring about the process to obtain my final certification after completing the exam.",
       "label": "Final certification"
+    },
+    {
+      "message": "Hi, I recently completed the course and passed the final exam. When can I expect to receive my final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Dear Support Team, I have successfully completed the course and passed the final exam. Could you please let me know when I will receive my final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hello, I have finished the course and passed the final exam. When will I receive my final certification for the course?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hi, I'm wondering when I will receive my final certification after completing the course and passing the final exam.",
+      "label": "Final certification"
+    },
+    {
+      "message": "Dear Team, I have completed the course and passed the final exam. Can you provide information on when I will receive my final certification?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hello, I recently finished the course and passed the final exam. When can I expect to receive my final certification for the course?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hi, I have successfully completed the course and passed the final exam. When will I receive my final certification for the course?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Dear Support Team, I'm inquiring about the process to obtain my final certification after completing the course and passing the final exam.",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hello, I recently completed the course and passed the final exam. When can I expect to receive my final certification for the course?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hi, I have finished the course and passed the final exam. When will I receive my final certification for the course?",
+      "label": "Final certification"
+    },
+    {
+      "message": "Dear Team, I'm wondering when I will receive my final certification after completing the course and passing the final exam.",
+      "label": "Final certification"
+    },
+    {
+      "message": "Hello, I'm experiencing difficulties with the course videos. They're not playing properly. Can you help me troubleshoot this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi there, whenever I try to play the course videos, they don't load. Could you please look into this issue and provide a solution?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Dear Support Team, I'm having trouble accessing the course videos. Every time I click on a video, it doesn't start playing. What could be the problem?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi, I'm unable to watch any of the course videos. Whenever I click play, nothing happens. Can you assist me in resolving this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hello, the course videos seem to be buffering indefinitely and not playing. Is there a problem with the video player or my internet connection?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Dear Team, I'm encountering an issue where the course videos are stuck on a loading screen and won't play. Can you please investigate and provide a solution?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi Support, I'm having trouble with the course videos. They're not loading or playing properly. Could you help me troubleshoot this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hello, I'm experiencing difficulties with the course videos. They're not playing smoothly and keep buffering. Can you assist me in resolving this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi there, I'm unable to watch any of the course videos. When I click play, nothing happens. Can you help me troubleshoot this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Dear Support Team, I'm having trouble accessing the course videos. Every time I try to play a video, it doesn't load. What could be causing this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi, I'm encountering an issue where the course videos are not playing. They seem to be stuck on a loading screen. Can you provide assistance in resolving this problem?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hello, the course videos are not playing properly. They keep buffering and won't load. Can you help me troubleshoot this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Dear Team, I'm having trouble with the course videos. They're not loading or playing smoothly. Could you please investigate and provide a solution?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi Support, I'm experiencing difficulties with the course videos. They're not playing properly and keep buffering. Can you assist me in resolving this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hello, I'm unable to watch any of the course videos. When I click play, nothing happens. Can you help me troubleshoot this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hi there, I'm encountering an issue where the course videos are stuck on a loading screen and won't play. Can you provide assistance in resolving this problem?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Dear Support Team, I'm having trouble accessing the course videos. Every time I try to play a video, it doesn't load. What could be causing this issue?",
+      "label": "Videos not playing"
+    },
+    {
+      "message": "Hello, I recently changed my email address and would like to update it for my course account. How can I proceed with this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi, I'm planning to switch to a new email address. Can you help me transfer my course subscription to the new email?",
+      "label": "Change address"
+    },
+    {
+      "message": "Dear Support Team, I need to change the email address associated with my course account. Could you please assist me with this process?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi, I'm no longer using my current email address. Can I transfer my course access to someone else's email?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hello, I'm considering transferring my course subscription to a friend. Is it possible to change the email associated with my account to theirs?",
+      "label": "Change address"
+    },
+    {
+      "message": "Dear Team, I would like to update my email address for my course account. Can you guide me through the steps to make this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi Support, I recently changed my email address and need to update it for my course account. Could you provide instructions on how to do this?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hello, I'm planning to switch to a new email address and would like to update it for my course account. Can you help me with this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi, I've changed my email address and need to update it for my course account. Can you assist me in making this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Dear Support Team, I need to update the email address associated with my course account. Could you please guide me through the process of making this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hello, I'm considering transferring my course subscription to a family member. Is it possible to change the email associated with my account to theirs?",
+      "label": "Change address"
+    },
+    {
+      "message": "Dear Team, I would like to update my email address for my course account. Can you provide assistance with this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi Support, I recently changed my email address and need to update it for my course account. Could you please provide guidance on how to proceed with this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hello, I'm planning to switch to a new email address and would like to update it for my course account. Can you assist me in making this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hi, I've changed my email address and need to update it for my course account. Can you guide me through the steps to make this change?",
+      "label": "Change address"
+    },
+    {
+      "message": "Dear Support Team, I need to update the email address associated with my course account. Could you please provide instructions on how to do this?",
+      "label": "Change address"
+    },
+    {
+      "message": "Hello, I'm considering transferring my course subscription to a friend. Is it possible to change the email associated with my account to theirs?",
+      "label": "Change address"
     }
   ]
 }
