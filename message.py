@@ -809,7 +809,7 @@ def code(solved_link, unsolved_link,classfi):
                                       "
                                       target="_blank"
                                       width="80"
-                                      ><strong>Yes Solved</strong>
+                                      ><strong>Yes Solved ✅👍</strong>
                                     </a>
 
                                   </div>
@@ -877,7 +877,7 @@ def code(solved_link, unsolved_link,classfi):
                                       "
                                       target="_blank"
                                       width="114"
-                                      ><strong>Not Solved</strong>
+                                      ><strong>Not Solved 😒</strong>
                                     </a>
 
                                   </div>
@@ -895,6 +895,195 @@ def code(solved_link, unsolved_link,classfi):
           </tr>
         </tbody>
       </table>
+          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+      style="background-color:#F5F5F5;width:100%;" class="section">
+      <tbody>
+        <tr>
+          <td align="center">
+            <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="block-grid-outlook" style="width:800px;" width="800" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+            <div style="background:#F5F6F6;background-color:#F5F6F6;Margin:0px auto;max-width:800px;">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                style="background-color:#F5F6F6;width:100%;">
+                <tbody>
+                  <tr>
+                    <td style="font-size:0px;padding:10px 0px 0px 24px;text-align:center;vertical-align:top;"
+                      class="block-grid">
+                      <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="vertical-align:bottom;width:186.24px;" ><![endif]-->
+                      <div class="mj-column-per-24 mj-outlook-group-fix">
+                      </div>
+                      <div class="mj-column-per-43 mj-outlook-group-fix"
+                        style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:bottom;width:100%;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                          style="border-radius:0px;vertical-align:bottom;" width="100%">
+                          <tbody>
+                            <tr>
+                              <td class="social-container"
+                                style="font-size:0px;padding:10px 0px 0px 0px;word-break:break-word;text-align:left;">
+                                <!--[if mso | IE]><table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td><![endif]-->
+                                <div style="display:inline-block;">
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                    style="float:none;display:inline-table;">
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding:6px;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                            style="background:#FFFFFF;border-radius:0px;width:22px;">
+                                            <tbody>
+                                              <tr>
+                                                <td
+                                                  style="padding:0px;font-size:0;height:22px;vertical-align:middle;width:22px;">
+                                                  <div class="mktEditable" id="ksocial-9xc6ng7h3">
+                                                    <a href="https://www.facebook.com/iamjaysetti/"
+                                                      target="_blank"
+                                                      style="text-decoration: none; color: #0068A5;"><img alt="Facebook"
+                                                        height="22"
+                                                        src="https://go.facebookinc.com/rs/267-PVB-941/images/f4d-icon-facebook-20x20-2x.png"
+                                                        style="border-radius:0px;display:block;" width="22"></a>
+                                                  </div>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+
+                                <div style="display:inline-block;">
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                    style="float:none;display:inline-table;">
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding:6px;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                            style="background:#FFFFFF;border-radius:0px;width:22px;">
+                                            <tbody>
+                                              <tr>
+                                                <td
+                                                  style="padding:0px;font-size:0;height:22px;vertical-align:middle;width:22px;">
+                                                  <div class="mktEditable" id="ksocial-73axkfz49">
+                                                    <a href="https://twitter.com/thepixeltests"
+                                                      target="_blank"
+                                                      style="text-decoration: none; color: #0068A5;"><img alt="Twitter"
+                                                        height="22"
+                                                        src="https://go.facebookinc.com/rs/267-PVB-941/images/f4d-icon-twitter-20x20-2x.png"
+                                                        style="border-radius:0px;display:block;" width="22"></a>
+                                                  </div>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <div style="display:inline-block;">
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                    style="float:none;display:inline-table;">
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding:6px;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                            style="background:#FFFFFF;border-radius:0px;width:22px;">
+                                            <tbody>
+                                              <tr>
+                                                <td
+                                                  style="padding:0px;font-size:0;height:22px;vertical-align:middle;width:22px;">
+                                                  <div class="mktEditable" id="ksocial-srgh3hfx3">
+                                                    <a href="https://www.instagram.com/pixelabel_test/"
+                                                      target="_blank"
+                                                      style="text-decoration: none; color: #0068A5;"><img
+                                                        alt="Instagram" height="22"
+                                                        src="https://go.facebookinc.com/rs/267-PVB-941/images/f4d-icon-instagram-20x20-2x.png"
+                                                        style="border-radius:0px;display:block;" width="22"></a>
+                                                  </div>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+
+                                <div style="display:inline-block;">
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                    style="float:none;display:inline-table;">
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding:6px;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                            style="background:#FFFFFF;border-radius:0px;width:22px;">
+                                            <tbody>
+                                              <tr>
+                                                <td
+                                                  style="padding:0px;font-size:0;height:22px;vertical-align:middle;width:22px;">
+                                                  <div class="mktEditable" id="ksocial-cg2znq8d6">
+                                                    <a href="https://www.linkedin.com/company/pixeltestshq/?originalSubdomain=in"
+                                                      target="_blank"
+                                                      style="text-decoration: none; color: #0068A5;"><img alt="Linkedin"
+                                                        height="22"
+                                                        src="https://go.facebookinc.com/rs/267-PVB-941/images/f4d-icon-linkedin-20x20-2x%20copy.png"
+                                                        style="border-radius:0px;display:block;" width="22"></a>
+                                                  </div>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+
+                                <div style="display:inline-block;">
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                    style="float:none;display:inline-table;">
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding:6px;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                            style="background:#FFFFFF;border-radius:0px;width:22px;">
+                                            <tbody>
+                                              <tr>
+                                                <td
+                                                  style="padding:0px;font-size:0;height:22px;vertical-align:middle;width:22px;">
+                                                  <div class="mktEditable" id="ksocial-sexfz5gbh">
+                                                    <a href="https://www.youtube.com/c/pixeltests"
+                                                      target="_blank"
+                                                      style="text-decoration: none; color: #0068A5;"><img alt="YouTube"
+                                                        height="22"
+                                                        src="https://go.facebookinc.com/rs/267-PVB-941/images/f4d-icon-youtube-20x20-2x%20copy.png"
+                                                        style="border-radius:0px;display:block;" width="22"></a>
+                                                  </div>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
       
     </div>
     
