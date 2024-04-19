@@ -1,7 +1,7 @@
 import json
 
 def get_responses():
-    with open('responce_mails.json') as f:
+    with open('responce_mails.json', 'r', encoding='utf-8') as f:
         responses_data = json.load(f)
     return responses_data['responces']
 
@@ -13,14 +13,15 @@ def get_responce(classfi):
 
 def code(solved_link, unsolved_link,classfi):
 
-  if classfi == "Login issues" :
-    url = "http://saipraveen.free.nf/sample/loginissue.png"
-  elif classfi == "Requesting course extension":
-    url = "http://saipraveen.free.nf/sample/refundissue.jpg"
-  elif classfi == "site issue":
-    url = "http://saipraveen.free.nf/sample/siteissue.png"
-  else:
-    url = "http://saipraveen.free.nf/sample/defaultclass.png"
+  if classfi == "password reset" :
+    url = "http://saipraveen.free.nf/sample/passwordreset.jpg"
+    youtube_url = "https://youtu.be/AwvWUQ9_uQM?si=BtahnahH47aFp0I9"
+  elif classfi == "Final certification":
+    url = "http://saipraveen.free.nf/sample/finalcertificate.png"
+    youtube_url = "https://youtu.be/_vJa9Fzm-4w?si=HwZJwVdhLBnzaXNT"
+  elif classfi == "course extension":
+    url = "http://saipraveen.free.nf/sample/courseextension.png"
+    youtube_url = "https://youtube.com/shorts/JVu3T7LrXKo?si=km-vefojF6HquKnL"
     
   responce_message = get_responce(classfi)
     
@@ -577,7 +578,7 @@ def code(solved_link, unsolved_link,classfi):
                                       mktolockimgstyle="true"
                                     >
                                       <a
-                                        href="https://youtu.be/GGTorJjJq-c?si=Ek3-Jdhv8KSxohvp"
+                                        href="{youtube_url}"
                                         target="_blank"
                                         style="
                                           text-decoration: none;
