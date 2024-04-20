@@ -1,7 +1,7 @@
 {
   "responces": {
     "password reset": {
-      "responce": "<h2>Please follow the following steps to change your password </h2><li> Open <a target='_blank' href='https://sso.teachable.com/secure/978637/identity/forgot_password'>Password Reset link</a></li><li> Click on the “Reset your password” option (exact email id used for purchase)</li><li> Enter your username, which is your registered email address.</li><li> You will get a password reset link on your email to set your new password.</li><li> Click on the link and set your new password.</li><li>6. Login with your new password.</li><li>7. If you are still facing any issue, please let us know.</li>"
+      "responce": "<h2>Please follow the following steps to change your password </h2><li> Open <a target='_blank' href='https://sso.teachable.com/secure/978637/identity/forgot_password'>Password Reset link</a></li><li> Click on the “Reset your password” option (exact email id used for purchase)</li><li> Enter your username, which is your registered email address.</li><li> You will get a password reset link on your email to set your new password.</li><li> Click on the link and set your new password.</li><li>Login with your new password.</li><li>If you are still facing any issue, please let us know.</li>"
     },
     "Final certification": {
       "responce": "<h2>Please follow the following steps to get Final Certificate </h2><li> Submite Your capston Project to the Email First</li><li> Share Your Project report, documentations, Github to the email</li><li> Our Team will send you</li>"
